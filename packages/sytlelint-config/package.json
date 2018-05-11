@@ -1,0 +1,23 @@
+{
+  "name": "sytlelint-config-adidas",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  },
+  "main": "./stylelint-config.js",
+  "peerDependencies": {
+    "stylelint": "^8.4.0"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "18.0.0",
+    "stylelint-selector-bem-pattern": "2.0.0"
+  },
+  "files": [
+    "stylelint-config.js"
+  ],
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ]
+}

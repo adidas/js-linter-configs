@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-adidas-es5",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  },
+  "main": "./index.js",
+  "peerDependencies": {
+    "eslint": ">= 4"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ]
+}

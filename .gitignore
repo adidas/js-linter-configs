@@ -1,0 +1,15 @@
+.idea
+.DS_Store
+.npmrc
+.sonar
+.stryker*
+*.bck
+*.log
+*.orig
+*.sublime-*
+**/.nyc_output
+**/coverage
+**/dist
+**/doc
+**/test/results
+node_modules

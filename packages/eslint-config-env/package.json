@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-adidas-env",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  },
+  "main": "./browser.js",
+  "peerDependencies": {
+    "eslint": ">= 4"
+  },
+  "files": [
+    "browser.js",
+    "module.js",
+    "node.js",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "js-linter-configs",
+  "version": "1.0.0",
+  "description": "adidas configurations for JavaScript linting tools",
+  "license": "UNLICENSED",
+  "author": "adidas",
+  "scripts": {
+    "setup": "echo \"Nothing to setup\"",
+    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:exec": "lerna exec",
+    "lerna:link": "lerna link",
+    "lerna:publish": "node scripts/set-version && lerna publish"
+  },
+  "devDependencies": {
+    "lerna": "2.6.0",
+    "replace": "0.3.0"
+  },
+  "keywords": [
+    "lint",
+    "linter",
+    "eslint",
+    "tslint",
+    "stylelint"
+  ],
+  "private": true
+}

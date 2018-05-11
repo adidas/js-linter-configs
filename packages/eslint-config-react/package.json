@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-adidas-react",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  },
+  "main": "./index.js",
+  "peerDependencies": {
+    "eslint-config-adidas-jsx": "*",
+    "eslint": ">= 4",
+    "eslint-plugin-react": ">= 7"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ]
+}

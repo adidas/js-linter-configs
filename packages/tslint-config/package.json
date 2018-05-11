@@ -1,0 +1,22 @@
+{
+  "name": "tslint-config-adidas",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  },
+  "main": "./tslint.json",
+  "peerDependencies": {
+    "tslint": ">= 5",
+    "tslint-eslint-rules": ">= 5"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "tslint",
+    "tslint-config"
+  ]
+}

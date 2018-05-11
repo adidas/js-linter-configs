@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-adidas-es9",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  },
+  "main": "./index.js",
+  "peerDependencies": {
+    "eslint-config-adidas-es8": "*",
+    "eslint": ">= 4"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ]
+}

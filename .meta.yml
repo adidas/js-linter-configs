@@ -1,0 +1,19 @@
+imageUrl: https://github.com/adidas/js-linter-configs/logo.png
+display:
+  title: JavaScript linter configs
+  language: true
+  stars: true
+keywords:
+  - eslint
+  - tslint
+  - stylelint
+  - linter
+  - shareable-configs
+  - configuration
+  - ecmascript
+  - typescript
+  - javascript
+  - babel
+  - jsx
+  - react
+  - vue
