@@ -1,20 +1,32 @@
 {
   "name": "eslint-config-adidas-env",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "ESLint configurations for multiple environments",
+  "license": "MIT",
+  "contributors": [
+    "David Recuenco <david.recuencogadea@gmail.com>",
+    "Jaime Pastor <moelders@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adidas/js-linter-configs.git"
+  },
   "engines": {
     "node": ">= 8",
     "npm": ">= 5"
   },
   "main": "./browser.js",
   "peerDependencies": {
-    "eslint": ">= 4"
+    "eslint": "^4"
   },
   "files": [
     "browser.js",
     "module.js",
     "node.js",
+    "test.js",
     "README.md",
-    "CHANGELOG.md"
+    "CHANGELOG.md",
+    "LICENSE"
   ],
   "keywords": [
     "eslint",

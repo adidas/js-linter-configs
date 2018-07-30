@@ -1,7 +1,5 @@
 module.exports = {
-  extends: [
-    'adidas-env/module'
-  ],
+  extends: [ './module.js' ],
   env: {
     node: true,
     commonjs: true

@@ -5,6 +5,6 @@ module.exports = {
     }
   },
   rules: {
-    'jsx-quotes': ['error', 'prefer-double']
+    'jsx-quotes': [ 'error', 'prefer-double' ]
   }
 };

@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'adidas-es7',
+  extends: [ 'eslint-config-adidas-es7' ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 8
   },
@@ -7,7 +7,6 @@ module.exports = {
     'no-await-in-loop': 'error',
     'no-return-await': 'off',
     'require-await': 'off',
-
     'promise/prefer-await-to-then': 'off',
     'promise/prefer-await-to-callbacks': 'off'
   }

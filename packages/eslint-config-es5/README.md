@@ -2,7 +2,7 @@
 
 Basic JavaScript ESLint rules.
 
-This should be the base for every JavaScript project, regardless of the EcmaScript level or environment.
+This should be the base for every JavaScript project, regardless of the ECMAScript level or environment.
 
 ## Install
 
@@ -75,3 +75,4 @@ To override, add a `rules` entry in your `.eslintrc` configuration and set any r
 - [ESLint: Configuration](https://eslint.org/docs/user-guide/configuring)
 - [ESLint: CLI](https://eslint.org/docs/user-guide/command-line-interface)
 - [ESLint: Rules](https://eslint.org/docs/rules/)
+- [FAQ: ESLint Peer Dependencies](../../CHANGELOG.md#ESLint-Peer-Dependencies)

@@ -1,19 +1,30 @@
 {
   "name": "tslint-config-adidas",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "TSLint base configuration and rules for all TypeScript codebases",
+  "license": "MIT",
+  "contributors": [
+    "David Recuenco <david.recuencogadea@gmail.com>",
+    "Jaime Pastor <moelders@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adidas/js-linter-configs.git"
+  },
   "engines": {
     "node": ">= 8",
     "npm": ">= 5"
   },
   "main": "./tslint.json",
   "peerDependencies": {
-    "tslint": ">= 5",
-    "tslint-eslint-rules": ">= 5"
+    "tslint": "^5",
+    "tslint-eslint-rules": "^5"
   },
   "files": [
-    "index.js",
+    "tslint.json",
     "README.md",
-    "CHANGELOG.md"
+    "CHANGELOG.md",
+    "LICENSE"
   ],
   "keywords": [
     "tslint",

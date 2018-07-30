@@ -7,7 +7,7 @@ These already extend `eslint-config-adidas-es5`.
 ## Install
 
 ```
-npm i --save-dev eslint@4 eslint-plugin-import@2 eslint-plugin-promise@3 eslint-config-adidas-es5 eslint-config-adidas-es6
+npm i --save-dev eslint@4 eslint-plugin-import@2 eslint-plugin-promise@3 eslint-config-adidas-es6
 ```
 
 ## Usage
@@ -37,3 +37,4 @@ Usually you would mix this with other eslint configurations, like:
 - [ESLint](https://eslint.org/)
 - [ESLint: Promise plugin](https://github.com/xjamundx/eslint-plugin-promise)
 - [ESLint: Import plugin](https://github.com/benmosher/eslint-plugin-import)
+- [FAQ: ESLint Peer Dependencies](../../CHANGELOG.md#ESLint-Peer-Dependencies)

@@ -1,13 +1,13 @@
-# stylelint-config-adidas
+# stylelint-config-adidas-bem
 
 adidas configuration for [_stylelint_](https://www.npmjs.com/package/stylelint) CSS linter tool.
 
-The configuration extends the _stylelint_ standard: [_stylelint-config-standard_](https://www.npmjs.com/package/stylelint-config-standard).
+It uses the BEM pattern plugin with some custom rules: [_stylelint-selector-bem-pattern_](https://www.npmjs.com/package/stylelint-selector-bem-pattern).
 
 ## Install
 
 ```
-npm i --save-dev stylelint@8.4 stylelint-config-adidas
+npm i --save-dev stylelint@8.4 stylelint-config-adidas stylelint-config-adidas-bem
 ```
 
 ## Project specific configuration.
@@ -16,7 +16,10 @@ Create a `.stylelintrc` file on the root folder of the project.
 
 ```json
 {
-  "extends": "stylelint-config-adidas"
+  "extends": [
+    "stylelint-config-adidas",
+    "stylelint-config-adidas-bem"
+  ]
 }
 ```
 
@@ -26,6 +29,7 @@ The defined rules can be modified adding other configurations, plugins or custom
 {
   "extends": [
     "stylelint-config-adidas",
+    "stylelint-config-adidas-bem",
     "my-custom-stylelint-config"
   ],
   "rules": {
@@ -39,3 +43,4 @@ The defined rules can be modified adding other configurations, plugins or custom
 ## Links
 
 - [Stylelint](https://stylelint.io/)
+- [BEM Introduction](http://getbem.com/introduction/)

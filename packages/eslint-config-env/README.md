@@ -2,9 +2,10 @@
 
 Environment configurations for ESLint:
 
-- `modules`: applies rules related to `import`, `require`, `modules`, `process`, etc.
-- `node`: extends `modules` and adds some NodeJS specific rules.
+- `module`: applies rules related to `import`, `require`, `module`, `process`, etc.
+- `node`: extends `module` and adds some NodeJS specific rules.
 - `browser`: applies some browser specific rules.
+- `test`: overwrites some rules which do not apply in testing.
 
 ## Install
 
@@ -27,7 +28,7 @@ Or
 ```json
 {
   "extends": [
-    "adidas-env/{name}" // where name is either modules, node or browser
+    "adidas-env/{name}" // where name is either module, node or browser
   ]
 }
 ```
@@ -38,16 +39,17 @@ Usually you would mix this with other ESLint configurations, like:
 {
   "extends": [
     "adidas-env/browser",
-    "adidas-env/modules",
+    "adidas-env/module",
     "adidas-es6",
     "adidas-react"
   ]
 }
 ```
 
-> `browser` and `modules` can be used together for applications using webpack, Rollup, etc.
+> `browser` and `module` can be used together for applications using webpack, Rollup, etc.
 
 ## Links
 
 - [Base configuration](https://tools.adidas-group.com/bitbucket/projects/BWRNPM/repos/pea-linter-configs/browse/packages/eslint-config-es5)
 - [ESLint](https://eslint.org/)
+- [FAQ: ESLint Peer Dependencies](../../CHANGELOG.md#ESLint-Peer-Dependencies)

@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'adidas-es8',
+  extends: [ 'eslint-config-adidas-es8' ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 9
   }

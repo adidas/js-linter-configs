@@ -1,0 +1,13 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "extends": [
+    "./packages/eslint-config-es5/index.js",
+    "./packages/eslint-config-env/node.js"
+  ],
+  "rules": {
+    "no-console": "off",
+    "no-magic-numbers": "off"
+  }
+}

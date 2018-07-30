@@ -34,3 +34,4 @@ Usually you would mix this with other eslint configurations, like:
 
 - [Base configuration](https://tools.adidas-group.com/bitbucket/projects/BWRNPM/repos/pea-linter-configs/browse/packages/eslint-config-es5)
 - [ESLint](https://eslint.org/)
+- [FAQ: ESLint Peer Dependencies](../../CHANGELOG.md#ESLint-Peer-Dependencies)

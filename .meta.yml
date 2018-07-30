@@ -1,8 +1,4 @@
-imageUrl: https://github.com/adidas/js-linter-configs/logo.png
-display:
-  title: JavaScript linter configs
-  language: true
-  stars: true
+imageUrl: https://github.com/adidas/js-linter-configs/blob/master/logo.png
 keywords:
   - eslint
   - tslint
@@ -17,3 +13,4 @@ keywords:
   - jsx
   - react
   - vue
+  - bem

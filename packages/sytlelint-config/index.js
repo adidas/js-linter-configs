@@ -1,29 +1,14 @@
 module.exports = {
-  'extends': [
-    'stylelint-config-standard'
-  ],
-  'plugins': [
-    'stylelint-selector-bem-pattern'
-  ],
-  'rules': {
-    'plugin/selector-bem-pattern': {
-      'componentName': '[A-Z]+',
-      'componentSelectors': {
-        'initial': '^\\.{componentName}(?:-[a-z]+)?$',
-        'combined': '^\\.combined-{componentName}-[a-z]+$'
-      },
-      'utilitySelectors': '^\\.util-[a-z]+$'
-    },
+  extends: [ 'stylelint-config-standard' ],
+  rules: {
     'at-rule-empty-line-before': [
       'always',
       {
-        'except': [
+        except: [
           'blockless-after-same-name-blockless',
           'first-nested'
         ],
-        'ignore': [
-          'after-comment'
-        ]
+        ignore: [ 'after-comment' ]
       }
     ],
     'at-rule-name-case': 'lower',
@@ -43,12 +28,8 @@ module.exports = {
     'comment-empty-line-before': [
       'always',
       {
-        'except': [
-          'first-nested'
-        ],
-        'ignore': [
-          'stylelint-commands'
-        ]
+        except: [ 'first-nested' ],
+        ignore: [ 'stylelint-commands' ]
       }
     ],
     'comment-no-empty': true,
@@ -56,11 +37,11 @@ module.exports = {
     'custom-property-empty-line-before': [
       'always',
       {
-        'except': [
+        except: [
           'after-custom-property',
           'first-nested'
         ],
-        'ignore': [
+        ignore: [
           'after-comment',
           'inside-single-line-block'
         ]
@@ -71,9 +52,7 @@ module.exports = {
     'declaration-block-no-duplicate-properties': [
       true,
       {
-        'ignore': [
-          'consecutive-duplicates-with-different-values'
-        ]
+        ignore: [ 'consecutive-duplicates-with-different-values' ]
       }
     ],
     'declaration-block-no-redundant-longhand-properties': true,
@@ -89,11 +68,11 @@ module.exports = {
     'declaration-empty-line-before': [
       'always',
       {
-        'except': [
+        except: [
           'after-declaration',
           'first-nested'
         ],
-        'ignore': [
+        ignore: [
           'after-comment',
           'inside-single-line-block'
         ]
@@ -138,12 +117,8 @@ module.exports = {
     'rule-empty-line-before': [
       'always-multi-line',
       {
-        'except': [
-          'first-nested'
-        ],
-        'ignore': [
-          'after-comment'
-        ]
+        except: [ 'first-nested' ],
+        ignore: [ 'after-comment' ]
       }
     ],
     'selector-attribute-brackets-space-inside': 'never',

@@ -2,18 +2,28 @@
   "name": "js-linter-configs",
   "version": "1.0.0",
   "description": "adidas configurations for JavaScript linting tools",
-  "license": "UNLICENSED",
-  "author": "adidas",
+  "license": "MIT",
+  "contributors": [
+    "David Recuenco <david.recuencogadea@gmail.com>",
+    "Jaime Pastor <moelders@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adidas/js-linter-configs.git"
+  },
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  },
   "scripts": {
-    "setup": "echo \"Nothing to setup\"",
     "lerna:bootstrap": "lerna bootstrap",
     "lerna:exec": "lerna exec",
-    "lerna:link": "lerna link",
-    "lerna:publish": "node scripts/set-version && lerna publish"
+    "lerna:publish": "lerna exec -- node \\$LERNA_ROOT_PATH/scripts/publish.js",
+    "lint": "eslint packages scripts"
   },
   "devDependencies": {
-    "lerna": "2.6.0",
-    "replace": "0.3.0"
+    "eslint": "4.19.1",
+    "lerna": "2.11.0"
   },
   "keywords": [
     "lint",
@@ -21,6 +31,5 @@
     "eslint",
     "tslint",
     "stylelint"
-  ],
-  "private": true
+  ]
 }

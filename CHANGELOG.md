@@ -1,3 +1,3 @@
 # 1.0.0
 
-- Initial release of project.
+- Initial release of `js-linter-configs`.

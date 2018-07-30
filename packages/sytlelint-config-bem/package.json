@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-adidas-es9",
+  "name": "stylelint-config-adidas-bem",
   "version": "1.0.0",
-  "description": "ESLint configuration and rules for ECMAScript 9",
+  "description": "Stylelint configuration to enforce BEM guidelines",
   "license": "MIT",
   "contributors": [
     "David Recuenco <david.recuencogadea@gmail.com>",
@@ -17,10 +17,12 @@
   },
   "main": "./index.js",
   "peerDependencies": {
-    "eslint": "^4"
+    "stylelint": "^8.4",
+    "stylelint-config-adidas": "~1.0"
   },
   "dependencies": {
-    "eslint-config-adidas-es8": "~1.0"
+    "postcss-syntax": "0.32.0",
+    "stylelint-selector-bem-pattern": "2.0.0"
   },
   "files": [
     "index.js",
@@ -29,7 +31,7 @@
     "LICENSE"
   ],
   "keywords": [
-    "eslint",
-    "eslint-config"
+    "stylelint",
+    "stylelint-config"
   ]
 }

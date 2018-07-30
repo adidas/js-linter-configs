@@ -1,10 +1,9 @@
 {
-  "lerna": "2.6.0",
+  "lerna": "2.11.0",
   "packages": [
     "packages/*"
   ],
   "npmClient": "npm",
   "useWorkspaces": false,
-  "loglevel": "warn",
-  "version": "0.0.0"
+  "loglevel": "warn"
 }
