@@ -1,15 +1,15 @@
 ---
-name: Add/Update rule
-about: Adding a rule or changing configuration for existing rules
+name: Add/Update rules
+about: Adding rules or changing configuration for existing rules
 ---
 
 **Node/npm version(s)**:
 
 **Package(s) version(s)**:
 
-**Rule name**:
+**Rule name(s)**:
 
-**Requirements (package specific version, plugins, ...)**:
+**Requirements (package specific version, plugins, etc.)**:
 
 **What does it provide?**:
 

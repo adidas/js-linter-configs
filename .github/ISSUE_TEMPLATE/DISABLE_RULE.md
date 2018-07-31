@@ -1,14 +1,14 @@
 ---
-name: Disable rule
-about: Request disabling or removing a rule
+name: Disable rules
+about: Request disabling or removing rules
 ---
 
 **Node/npm version(s)**:
 
 **Package(s) version(s)**:
 
-**Rule name**:
+**Rule name(s)**:
 
-**Reasoning to disable the rule**:
+**Reasoning to disable the rule(s)**:
 
 **Example**:

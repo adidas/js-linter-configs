@@ -1,36 +1,36 @@
-# Updating project specific configurations
+# Contributing
 
-This situation can happen when a rule is affecting some project due to specific requirements or behaviors.
+Read the general [adidas contributing guidelines](https://github.com/adidas/adidas-contribution-guidelines/wiki/Contributing).
 
-To add, update or disable a rule:
+### Updating a package
 
-1. Test the new configuration:
-    - What becomes affected?
-    - Does it warn about new errors?
-    - Does it change the general coding style?
-1. Come to an agreement with your team.
-    - Evaluate alternatives.
-    - Make sure everyone is aligned with the change.
-    - If any, consult the change with a reviewer.
-1. Update your project's configuration file accordingly.
+Most of the rules have three states: enabled, disabled and warning.
 
-# Updating global configurations
+- Disabled: `0`/`"off"`.
+- Enabled: `2`/`"on"`.
+- Warning: `1`/`"warn"`
+    - The warning level is disallowed in any of the configurations.
 
-The flow for updating this repository is the following:
+Each configuration is inside the `packages` folder, and it is independent, so, it requires:
 
-1. Fork this repository.
-1. Create a `feature` or `bugfix` branch based on an existing Jira ticket.
-1. Commit, push and create a pull request with your changes.
-    - You **must** update the global `package.json` version.
-        - Patch version `+1` if `bugfix`.
-        - Minor version `+1`, reset patch to `0` if `feature`.
-        - In case of doubt, ask the maintainers.
-    - You **must** update the changelog accordingly with the changes.
-        - Use new version.
-        - Keep format unified with existing log.
-        - `# x.y.z` for releases and minor versions, `## x.y.z` for patch versions.
-    - You **must** update examples accordingly to reflect the changes.
-    - Your build **must** pass.
-1. Wait until someone reviews and approves or requests changes.
+- Update the version of its `package.json`.
+    - Check if the packages with dependencies of the modified one have to update its version too.
+- Add the changelog information in its `CHANGELOG.md` on top of the file.
 
-> `1`/`"warn"` level is disallowed in any of our global configurations, only `0`/`"off"` or `2`/`"on"` are allowed.
+The repository version and changelog should not be updated.
+
+### Checking coding guidelines
+
+Eslint is used to check the JavaScript coding style of the different configurations:
+
+> npm run lint
+
+### Releasing a package
+
+Once the version and changelog of either a package, or several packages, the publication script has to be executed.
+
+> npm run lerna:publish
+
+There is a dry-run mode to test that everything works before executing the NPM publication:
+
+> DRY_RUN=true npm run lerna:publish

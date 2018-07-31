@@ -1,3 +1,1 @@
-# 1.0.0
-
-- Initial release of `js-linter-configs`.
+<!-- The changelog of this project is disabled, please, check and update the changelog of each package accordingly -->
