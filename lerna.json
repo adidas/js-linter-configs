@@ -3,6 +3,11 @@
   "packages": [
     "packages/*"
   ],
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": [ "--no-package-lock" ]
+    }
+  },
   "npmClient": "npm",
   "useWorkspaces": false,
   "loglevel": "warn"
