@@ -8,15 +8,15 @@ The purpose of these configurations is to define a set of strict rules to valida
 
 This repository provides configurations for the different JavaScript language versions, from ES5 (which acts as base configuration) to ES9.
 
-These configurations can be used in any project written in JavaScript and TypeScript, it does not matter if it is frontend or backend code.
+These configurations can be used in any project written in JavaScript or TypeScript, it does not matter whether it is frontend or backend code.
 
 ## Use cases
 
 The main use case of this repository and their linter configuration is to check the code quality of the source code of the project.
 
-The linter tools used to check this configurations display errors if a rule is violated but they never modifies the source code.
+The linter tools used to check these configurations will display errors if a rule is violated but they never modify the source code unless indicated to do so.
 
-adidas is not responsible for the usage of this software for different purposes that the ones described in the use cases.
+adidas is not responsible for the usage of this software for different purposes that the ones described above.
 
 ## Requirements and dependencies
 
@@ -27,9 +27,14 @@ This repository contains different linter configuration which are independent pa
 ## Installation and running
 
 - In development mode (dependencies of the main package):
-    > npm install
-- Run time (installation of the required configurations):
-    > npm install CONFIGURATION_PACKAGE_NAME[@VERSION]
+    ```
+    npm install
+    npm run lerna:bootstrap
+    ```
+- Install a specific package in production mode (installation of each configuration):
+    ```
+    npm install CONFIGURATION_PACKAGE_NAME[@VERSION]
+    ```
 
 The required dependencies of each package are listed in its own `package.json` file as dependency or peer dependency.
 
@@ -43,7 +48,7 @@ Check the contributor list and you will be welcome if you want to contribute.
 
 ### Contributing
 
-Check out the [CONTRIBUTING.md](CONTRIBUTING.md) to know how to contribute to this project.
+Check out the [CONTRIBUTING.md](CONTRIBUTING.md) file to know how to contribute to this project.
 
 ### ESLint Peer Dependencies
 
@@ -51,7 +56,7 @@ By default, `eslint` resolves dependencies in the first level of `node_modules` 
 
 As a fix for this, we improved the resolution by adding `require.resolve` to each `extends` entry in our configurations so it will look for a nested module instead.
 
-Be aware that currently there is no way to resolve either relative or absolute paths for the `plugins` section of Eslint:
+Be aware that currently there is no way to resolve either relative or absolute paths for the `plugins` section of ESLint:
 
 - https://github.com/eslint/eslint/issues/3458
 - https://github.com/eslint/eslint/issues/6237
