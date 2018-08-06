@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-adidas-es5",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint base configuration and rules for all JavaScript codebases",
   "license": "MIT",
   "contributors": [

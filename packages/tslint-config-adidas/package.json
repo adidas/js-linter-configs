@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-adidas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TSLint base configuration and rules for all TypeScript codebases",
   "license": "MIT",
   "contributors": [
