@@ -153,7 +153,6 @@
     "no-unsafe-any": false,
     "no-unsafe-finally": true,
     "no-unused-expression": [ true, "allow-fast-null-checks", "allow-new" ],
-    "no-unused-variable": true,
     "no-use-before-declare": true,
     "no-var-keyword": true,
     "no-var-requires": false,
