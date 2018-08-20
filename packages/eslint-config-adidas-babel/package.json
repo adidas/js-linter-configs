@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-adidas-babel",
+  "version": "1.0.1",
+  "description": "ESLint configuration to use babel-eslint parser",
+  "license": "MIT",
+  "contributors": [
+    "David Recuenco <david.recuencogadea@gmail.com>",
+    "Jaime Pastor <moelders@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adidas/js-linter-configs.git"
+  },
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  },
+  "main": "./index.js",
+  "peerDependencies": {
+    "babel-eslint": "^7",
+    "eslint": "^4"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-adidas-jsx",
+  "version": "1.0.1",
+  "description": "ESLint configuration and rules for using generic JSX syntax",
+  "license": "MIT",
+  "contributors": [
+    "David Recuenco <david.recuencogadea@gmail.com>",
+    "Jaime Pastor <moelders@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adidas/js-linter-configs.git"
+  },
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  },
+  "main": "./index.js",
+  "peerDependencies": {
+    "eslint": "^4"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ]
+}

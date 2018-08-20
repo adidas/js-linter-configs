@@ -1,0 +1,36 @@
+{
+  "name": "stylelint-config-adidas",
+  "version": "1.0.1",
+  "description": "Stylelint base configuration and rules for CSS",
+  "license": "MIT",
+  "contributors": [
+    "David Recuenco <david.recuencogadea@gmail.com>",
+    "Jaime Pastor <moelders@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adidas/js-linter-configs.git"
+  },
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  },
+  "main": "./index.js",
+  "peerDependencies": {
+    "stylelint": "^8.4"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "18.2.0",
+    "stylelint-selector-bem-pattern": "2.0.0"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ]
+}

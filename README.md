@@ -1,5 +1,7 @@
 ![](./logo.png)
 
+![[](https://travis-ci.com/adidas/js-linter-configs)](https://api.travis-ci.com/adidas/js-linter-configs.svg?branch=master)
+
 # adidas linter configurations
 
 adidas configurations for the different linting tools for JavaScript, TypeScript, CSS/LESS/SASS, etc.
@@ -48,7 +50,7 @@ Check the contributor list and you will be welcome if you want to contribute.
 
 ### Contributing
 
-Check out the [CONTRIBUTING.md](CONTRIBUTING.md) file to know how to contribute to this project.
+Check out the [CONTRIBUTING.md](./.github/CONTRIBUTING.md) file to know how to contribute to this project.
 
 ### ESLint Peer Dependencies
 
