@@ -258,7 +258,7 @@ module.exports = {
     ],
     'quote-props': [ 'error', 'consistent-as-needed' ],
     'quotes': [ 'error', 'single' ],
-    'radix': ['error', 'as-needed'],
+    'radix': [ 'error', 'as-needed' ],
     'require-jsdoc': 'off',
     'semi': [ 'error', 'always' ],
     'semi-spacing': [ 'error', { before: false, after: true }],
