@@ -17,7 +17,7 @@
   },
   "main": "./index.js",
   "peerDependencies": {
-    "stylelint": "^8.4"
+    "stylelint": "^8.4||^9"
   },
   "dependencies": {
     "stylelint-config-standard": "18.2.0",
