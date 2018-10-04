@@ -17,6 +17,7 @@ module.exports = {
     'arrow-spacing': [ 'error', { before: true, after: true }],
     'class-methods-use-this': 'off',
     'constructor-super': 'error',
+    'func-names': [ 'error', 'never', { generators: 'as-needed' }],
     'generator-star-spacing': [ 'error', 'after' ],
     'implicit-arrow-linebreak': 'off',
     'lines-between-class-members': 'off',
