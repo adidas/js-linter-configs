@@ -17,7 +17,7 @@
   },
   "main": "./index.js",
   "peerDependencies": {
-    "eslint": "^4"
+    "eslint": "^4||^5"
   },
   "dependencies": {
     "eslint-config-adidas-es8": "~1.0"
