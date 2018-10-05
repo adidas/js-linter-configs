@@ -37,6 +37,7 @@ module.exports = {
     'react/no-this-in-sfc': 'error',
     'react/no-unescaped-entities': 'error',
     'react/no-unknown-property': 'error',
+    'react/no-unsafe': 'error',
     'react/no-unused-prop-types': 'error',
     'react/no-unused-state': 'error',
     'react/no-will-update-set-state': 'error',
@@ -94,6 +95,7 @@ module.exports = {
     'react/void-dom-elements-no-children': 'error',
 
     'react/jsx-boolean-value': 'off',
+    'react/jsx-child-element-spacing': 'off',
     'react/jsx-closing-bracket-location': [ 'error', 'after-props' ],
     'react/jsx-closing-tag-location': 'error',
     'react/jsx-curly-spacing': [
@@ -107,7 +109,10 @@ module.exports = {
     'react/jsx-equals-spacing': [ 'error', 'never' ],
     'react/jsx-filename-extension': [ 'error', { extensions: [ '.js', '.jsx' ] }],
     'react/jsx-first-prop-new-line': [ 'error', 'never' ],
-    'react/jsx-handler-names': [ 'error', { eventHandlerPrefix: 'handle', eventHandlerPropPrefix: 'on' }],
+    'react/jsx-handler-names': [
+      'error',
+      { eventHandlerPrefix: 'handle', eventHandlerPropPrefix: 'on' }
+    ],
     'react/jsx-indent': [ 'error', 2 ],
     'react/jsx-indent-props': [ 'error', 4 ],
     'react/jsx-key': 'error',
@@ -121,8 +126,13 @@ module.exports = {
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-curly-brace-presence': [ 'error', 'ignore' ],
     'react/jsx-pascal-case': 'error',
+    'react/jsx-props-no-multi-spaces': 'error',
     'react/jsx-sort-default-props': 'off',
-    'react/jsx-sort-props': [ 'error', { noSortAlphabetically: true, callbacksLast: true }],
+    'react/jsx-sort-props': [
+      'error',
+      { noSortAlphabetically: true, callbacksLast: true }
+    ],
+    'react/jsx-space-before-closing': [ 'error', 'never' ],
     'react/jsx-tag-spacing': [
       'error', {
         closingSlash: 'never',
