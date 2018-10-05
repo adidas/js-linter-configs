@@ -1,6 +1,6 @@
 {
   "name": "js-linter-configs",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "adidas configurations for JavaScript linting tools",
   "license": "MIT",
   "contributors": [
@@ -22,7 +22,7 @@
     "lint": "eslint packages scripts"
   },
   "devDependencies": {
-    "eslint": "4.19.1",
+    "eslint": "5.6.1",
     "lerna": "2.11.0"
   },
   "keywords": [
