@@ -37,14 +37,24 @@ module.exports = {
     'no-useless-constructor': 'error',
     'no-useless-rename': 'error',
     'no-var': 'error',
-    'object-shorthand': [ 'error', 'always', { avoidQuotes: true, avoidExplicitReturnArrows: true }],
+    'object-shorthand': [
+      'error',
+      'always',
+      { avoidQuotes: true, avoidExplicitReturnArrows: true }
+    ],
     'one-var': [ 'error', { initialized: 'never' }],
-    'prefer-arrow-callback': [ 'error', { allowNamedFunctions: false, allowUnboundThis: false }],
+    'prefer-arrow-callback': [
+      'error',
+      { allowNamedFunctions: false, allowUnboundThis: false }
+    ],
     'prefer-const': [ 'error', { destructuring: 'all' }],
-    'prefer-destructuring': [ 'error', { array: true, object: true }, { enforceForRenamedProperties: false }],
+    'prefer-destructuring': [
+      'error',
+      { array: true, object: true },
+      { enforceForRenamedProperties: false }
+    ],
     'prefer-numeric-literals': 'off',
     'prefer-promise-reject-errors': 'off',
-    'prefer-reflect': 'off',
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
     'prefer-template': 'error',
@@ -56,7 +66,7 @@ module.exports = {
     'template-tag-spacing': [ 'error', 'always' ],
     'yield-star-spacing': [ 'error', 'after' ],
 
-    'promise/catch-or-return': 'off',
+    'promise/catch-or-return': 'error',
     'promise/no-return-wrap': 'error',
     'promise/param-names': 'error',
     'promise/always-return': 'off',
@@ -65,7 +75,11 @@ module.exports = {
     'promise/no-promise-in-callback': 'error',
     'promise/no-callback-in-promise': 'off',
     'promise/avoid-new': 'off',
+    'promise/no-new-statics': 'error',
     'promise/no-return-in-finally': 'error',
+    'promise/valid-params': 'error',
+    'promise/prefer-await-to-then': 'off',
+    'promise/prefer-await-to-callbacks': 'off',
 
     'import/no-unresolved': 'off',
     'import/named': 'error',
@@ -76,6 +90,10 @@ module.exports = {
     'import/no-dynamic-require': 'off',
     'import/no-internal-modules': 'off',
     'import/no-webpack-loader-syntax': 'off',
+    'import/no-self-import': 'error',
+    'import/no-cycle': 'error',
+    'import/no-useless-path-segments': 'error',
+    'import/no-relative-parent-imports': 'off',
     'import/export': 'error',
     'import/no-named-as-default': 'error',
     'import/no-named-as-default-member': 'error',
@@ -91,12 +109,19 @@ module.exports = {
     'import/no-duplicates': 'error',
     'import/no-namespace': 'off',
     'import/extensions': 'off',
-    'import/order': [ 'error', { 'groups': [ 'builtin', 'external', 'internal', 'parent', 'sibling', 'index' ], 'newlines-between': 'never' }],
+    'import/order': [
+      'error', {
+        'groups': [ 'builtin', 'external', 'internal', 'parent', 'sibling', 'index' ],
+        'newlines-between': 'never'
+      }
+    ],
     'import/newline-after-import': [ 'error', { count: 1 }],
     'import/prefer-default-export': 'off',
     'import/max-dependencies': 'off',
     'import/no-unassigned-import': 'off',
     'import/no-named-default': 'off',
-    'import/no-anonymous-default-export': 'off'
+    'import/no-anonymous-default-export': 'off',
+    'import/group-exports': 'off',
+    'import/dynamic-import-chunkname': 'off'
   }
 };
