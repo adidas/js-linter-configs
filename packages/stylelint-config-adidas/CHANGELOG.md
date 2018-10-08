@@ -6,7 +6,7 @@
   - Added `linebreaks`: `unix`,
   - Added `keyframes-name-pattern` (`kebab-case` regular expression).
   - Added `media-feature-name-value-whitelist` (empty object).
-  - Added `selector-max-pseudo-class` (`0`, no limit).
+  - Added `selector-max-pseudo-class` (`5` limit).
 
 ## 1.0.1
 
