@@ -13,11 +13,9 @@ module.exports = {
     'vue/no-side-effects-in-computed-properties': 'error',
     'vue/no-template-key': 'error',
     'vue/no-textarea-mustache': 'error',
-    'vue/no-unused-components': [ 'error', { ignoreWhenBindingPresent: true }],
     'vue/no-unused-vars': 'error',
     'vue/no-use-v-if-with-v-for': [ 'error', { allowUsingIterationVar: false }],
     'vue/require-component-is': 'error',
-    'vue/require-prop-type-constructor': 'error',
     'vue/require-render-return': 'error',
     'vue/require-v-for-key': 'error',
     'vue/require-valid-default-prop': 'error',
@@ -63,7 +61,6 @@ module.exports = {
     'vue/mustache-interpolation-spacing': [ 'error', 'always' ],
     'vue/name-property-casing': [ 'error', 'kebab-case' ],
     'vue/no-multi-spaces': 'error',
-    'vue/no-template-shadow': 'error',
     'vue/prop-name-casing': [ 'error', 'camelCase' ],
     'vue/require-default-prop': 'off',
     'vue/require-prop-types': 'off',
@@ -98,10 +95,6 @@ module.exports = {
     ],
     'vue/this-in-template': [ 'error', 'never' ],
 
-    'vue/component-name-in-template-casing': [ 'error', 'kebab-case', { ignores: [] }],
-    'vue/multiline-html-element-content-newline': 'off',
-    'vue/no-spaces-around-equal-signs-in-attribute': 'error',
-    'vue/script-indent': [ 'off', 2, { baseIndent: 0, switchCase: 0 }],
-    'vue/singleline-html-element-content-newline': 'off'
+    'vue/script-indent': [ 'off', 2, { baseIndent: 0, switchCase: 0 }]
   }
 };
