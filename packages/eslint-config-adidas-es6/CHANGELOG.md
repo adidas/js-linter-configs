@@ -2,6 +2,7 @@
 
 - Updated ESLint to version 5.
 - Updated `eslint-config-adidas-es5` dependency using major range selector.
+- Updated peer dependency `eslint-plugin-import` to version 2.14.
 - Updated peer dependency `eslint-plugin-promise` to version 4.
 - Updated `eslint-plugin-promise` rules:
   - Added `no-new-statics`: `error`.

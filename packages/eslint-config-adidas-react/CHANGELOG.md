@@ -1,6 +1,7 @@
 # 1.1.0
 
 - Updated ESLint to version 5.
+- Updated peer dependency `eslint-plugin-react` to version 7.11.
 - Updated `eslint-plugin-react` rules:
   - Added `no-unsafe`: `error`.
   - Added `jsx-child-element-spacing`: `off`.

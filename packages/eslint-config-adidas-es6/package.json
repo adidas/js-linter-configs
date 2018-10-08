@@ -18,7 +18,7 @@
   "main": "./index.js",
   "peerDependencies": {
     "eslint": "^5",
-    "eslint-plugin-import": "^2",
+    "eslint-plugin-import": "^2.14",
     "eslint-plugin-promise": "^4"
   },
   "dependencies": {

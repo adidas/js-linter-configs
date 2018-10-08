@@ -18,7 +18,7 @@
   "main": "./index.js",
   "peerDependencies": {
     "eslint": "^5",
-    "eslint-plugin-vue": "^4"
+    "eslint-plugin-vue": "^4.7"
   },
   "files": [
     "index.js",

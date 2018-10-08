@@ -1,6 +1,7 @@
 # 1.1.0
 
 - Updated ESLint to version 5.
+- Updated peer dependency `eslint-plugin-vue` to version 4.7.
 - Sorted properties to match plugin documentation order.
 - Updated rules:
   - Added `no-unused-components`: `error`.
