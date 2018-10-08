@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-adidas-es5",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "ESLint base configuration and rules for all JavaScript codebases",
   "license": "MIT",
   "contributors": [
@@ -17,7 +17,7 @@
   },
   "main": "./index.js",
   "peerDependencies": {
-    "eslint": "^4"
+    "eslint": "^5"
   },
   "files": [
     "index.js",

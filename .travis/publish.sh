@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BRANCH=${TRAVIS_PULL_REQUEST_BRANCH:-$TRAVIS_BRANCH}
-BRANCH_REGEX="^(master$|release//*)"
+BRANCH_REGEX="^(release//*)"
 
 echo Current branch is $BRANCH
 

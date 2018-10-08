@@ -9,7 +9,7 @@ The configuration extends the _stylelint_ standard: [_stylelint-config-standard_
 ## Install
 
 ```
-npm i --save-dev stylelint@8.4 stylelint-config-adidas
+npm i --save-dev stylelint@9 stylelint-config-adidas
 ```
 
 ## Project specific configuration.
@@ -31,7 +31,7 @@ The defined rules can be modified adding other configurations, plugins or custom
     "my-custom-stylelint-config"
   ],
   "rules": {
-    "at-rule-no-unknown": [true, {
+    "at-rule-no-unknown": [ true, {
       "ignoreAtRules": ["my-rule"]
     }]
   }

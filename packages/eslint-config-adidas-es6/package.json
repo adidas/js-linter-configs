@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-adidas-es6",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "ESLint configuration and rules for ECMAScript 6",
   "license": "MIT",
   "contributors": [
@@ -17,12 +17,12 @@
   },
   "main": "./index.js",
   "peerDependencies": {
-    "eslint": "^4",
-    "eslint-plugin-import": "^2",
-    "eslint-plugin-promise": "^3"
+    "eslint": "^5",
+    "eslint-plugin-import": "^2.14",
+    "eslint-plugin-promise": "^4"
   },
   "dependencies": {
-    "eslint-config-adidas-es5": "~1.0"
+    "eslint-config-adidas-es5": "^1.1"
   },
   "files": [
     "index.js",

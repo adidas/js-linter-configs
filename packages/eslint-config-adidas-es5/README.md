@@ -9,7 +9,7 @@ This should be the base for every JavaScript project, regardless of the ECMAScri
 ## Install
 
 ```
-npm i --save-dev eslint@4 eslint-config-adidas-es5
+npm i --save-dev eslint@5 eslint-config-adidas-es5
 ```
 
 ## Usage

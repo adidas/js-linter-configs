@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-adidas-env",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "ESLint configurations for multiple environments",
   "license": "MIT",
   "contributors": [
@@ -17,7 +17,7 @@
   },
   "main": "./browser.js",
   "peerDependencies": {
-    "eslint": "^4"
+    "eslint": "^5"
   },
   "files": [
     "browser.js",

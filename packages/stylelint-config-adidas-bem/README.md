@@ -9,7 +9,7 @@ It uses the BEM pattern plugin with some custom rules: [_stylelint-selector-bem-
 ## Install
 
 ```
-npm i --save-dev stylelint@8.4 stylelint-config-adidas stylelint-config-adidas-bem
+npm i --save-dev stylelint@9 stylelint-config-adidas stylelint-config-adidas-bem
 ```
 
 ## Project specific configuration.
@@ -35,8 +35,8 @@ The defined rules can be modified adding other configurations, plugins or custom
     "my-custom-stylelint-config"
   ],
   "rules": {
-    "at-rule-no-unknown": [true, {
-      "ignoreAtRules": ["my-rule"]
+    "at-rule-no-unknown": [ true, {
+      "ignoreAtRules": [ "my-rule" ]
     }]
   }
 }
