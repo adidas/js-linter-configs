@@ -16,5 +16,4 @@ deploy:
   script: bash .travis/publish.sh
   on:
     tags: true
-    all_branches: true
-    condition: $TRAVIS_BRANCH = master
+    condition: $TRAVIS_TAG =~ ^[0-9]+\.[0-9]+\.[0-9]+
