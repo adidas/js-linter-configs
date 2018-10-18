@@ -3,6 +3,11 @@ This changelog is only to log changes of the project base.
 If there are changes on the packages, please, check and update the changelog of each package accordingly.
 -->
 
+# 1.2.0
+
+- Fixed React package.
+- Updated TravisCI configuration to deploy on tags on master branch.
+
 # 1.1.0
 
 - Disabled publication from `master` branch.
