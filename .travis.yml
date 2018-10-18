@@ -10,4 +10,11 @@ script:
 - npm run lint
 - npm run lerna:bootstrap
 - npm run lerna:exec -- cp ../../LICENSE .
-- .travis/publish.sh
+
+deploy:
+  provider: script
+  script: bash .travis/publish.sh
+  on:
+    tags: true
+    all_branches: true
+    condition: $TRAVIS_BRANCH = master
