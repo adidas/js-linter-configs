@@ -7,6 +7,7 @@ If there are changes on the packages, please, check and update the changelog of 
 
 - Fixed React package.
 - Updated TravisCI configuration to deploy on tags on master branch.
+- Updated `package-lock.json` with the publich NPM registry for packages resolution.
 
 # 1.1.0
 
