@@ -1,6 +1,7 @@
 const { join } = require('path');
 const { promisify } = require('util');
 const childProcess = require('child_process');
+const { red, green, blue, bold } = require('chalk');
 
 const exec = promisify(childProcess.exec);
 
@@ -21,7 +22,13 @@ const resultCode = {
  * @returns {Promise<number>} Status code of the package (existing/new).
  */
 function find(name, version) {
-  return exec(`npm view ${ name }@${ version } version`, { cwd })
+  const args = [];
+
+  if (process.env.REGISTRY) {
+    args.push(`--registry ${ process.env.REGISTRY }`);
+  }
+
+  return exec(`npm view ${ name }@${ version } version ${ args.join(' ') }`, { cwd })
   .then(({ stdout }) => stdout.trim() === version
     ? resultCode.SAME_VERSION
     : resultCode.NEW_VERSION)
@@ -40,14 +47,24 @@ function find(name, version) {
  * @returns {Promise<number>} Status code of the package (existing/new).
  */
 function publish(code) {
-  return exec(`${ process.env.DRY_RUN ? 'echo' : 'npm' } publish`, { cwd })
+  const args = [];
+
+  if (process.env.DRY_RUN) {
+    args.push('--dry-run');
+  }
+
+  if (process.env.REGISTRY) {
+    args.push(`--registry ${ process.env.REGISTRY }`);
+  }
+
+  return exec(`npm publish ${ args.join(' ') }`, { cwd })
   .then(() => code);
 }
 
 find(name, version)
 .then((code) => {
-  if (code === resultCode.SAME_VERSION) {
-    console.log(`Package ${ name } up-to-date`);
+  if (!process.env.FORCE && code === resultCode.SAME_VERSION) {
+    console.log(`Package ${ bold(name) } up-to-date`);
 
     process.exit(resultCode.SAME_VERSION);
   }
@@ -56,13 +73,13 @@ find(name, version)
 })
 .then((code) => {
   if (code === resultCode.NEW_VERSION) {
-    console.log(`Package ${ name } updated to v${ version }`);
+    console.log(`Package ${ bold(blue(name)) } updated to v${ bold(blue(version)) }`);
   } else {
-    console.log(`Package ${ name } created with v${ version }`);
+    console.log(`Package ${ bold(green(name)) } created with v${ bold(green(version)) }`);
   }
 })
 .catch((error) => {
-  console.error(`Error updating ${ name } to v${ version }`);
+  console.error(`Error updating ${ bold(red(name)) } to v${ bold(red(version)) }`);
   console.error(error);
 
   process.exit(resultCode.ERROR);

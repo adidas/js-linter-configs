@@ -3,6 +3,13 @@ This changelog is only to log changes of the project base.
 If there are changes on the packages, please, check and update the changelog of each package accordingly.
 -->
 
+# 1.2.1
+
+- Fixed es5 package.
+- Added chalk dependency.
+- Updated publish script to allow REGISTRY and FORCE env variables.
+- Updated ESLint to v5.8.0.
+
 # 1.2.0
 
 - Fixed React package.
