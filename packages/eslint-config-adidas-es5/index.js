@@ -213,6 +213,7 @@ module.exports = {
     'no-useless-concat': 'error',
     'no-useless-escape': 'error',
     'no-useless-return': 'error',
+    'no-var': 'off',
     'no-void': 'error',
     'no-warning-comments': [ 'error', { terms: [ 'todo', 'fixme' ], location: 'start' }],
     'no-whitespace-before-property': 'error',
@@ -251,6 +252,8 @@ module.exports = {
       { blankLine: 'always', prev: '*', next: 'function' },
       { blankLine: 'any', prev: [ 'block', 'block-like' ], next: 'function' }
     ],
+    'prefer-arrow-callback': 'off',
+    'prefer-rest-params': 'off',
     'quote-props': [ 'error', 'consistent-as-needed' ],
     'quotes': [ 'error', 'single' ],
     'radix': [ 'error', 'as-needed' ],
