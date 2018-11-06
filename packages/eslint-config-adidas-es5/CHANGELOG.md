@@ -1,3 +1,10 @@
+## 1.1.1
+
+- Added missing rules:
+  - `no-var`
+  - `prefer-arrow-callback`
+  - `prefer-rest-params`
+
 # 1.1.0
 
 - Updated ESLint to version 5.
