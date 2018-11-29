@@ -29,6 +29,5 @@
   "keywords": [
     "stylelint",
     "stylelint-config"
-  ],
-  "registry": "http://localhost:8081/repository/npm-private/"
+  ]
 }
