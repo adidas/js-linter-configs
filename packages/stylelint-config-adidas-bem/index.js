@@ -1,5 +1,4 @@
 module.exports = {
-  extends: [ 'stylelint-config-adidas' ],
   plugins: [ 'stylelint-selector-bem-pattern' ],
   rules: {
     'plugin/selector-bem-pattern': {

@@ -1,3 +1,8 @@
+# 1.2.0
+
+- Updated peer dependency `stylelint-config-adidas` to version `^1.2`.
+- Removed direct dependency `stylelint-config-adidas` in the configuration file.
+
 # 1.1.0
 
 - Updated Stylelint to version 9.

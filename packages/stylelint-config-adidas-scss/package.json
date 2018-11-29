@@ -1,7 +1,7 @@
 {
-  "name": "stylelint-config-adidas",
-  "version": "1.2.0",
-  "description": "Stylelint base configuration and rules for CSS",
+  "name": "stylelint-config-adidas-scss",
+  "version": "1.0.0",
+  "description": "Stylelint configuration to check SCSS specific rules",
   "license": "MIT",
   "contributors": [
     "David Recuenco <david.recuencogadea@gmail.com>",
@@ -17,10 +17,8 @@
   },
   "main": "./index.js",
   "peerDependencies": {
-    "stylelint": "^9.9"
-  },
-  "dependencies": {
-    "stylelint-config-standard": "18.2.0"
+    "stylelint-config-adidas": "^1.2",
+    "stylelint-scss": "^3.4"
   },
   "files": [
     "index.js",

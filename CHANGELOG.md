@@ -3,7 +3,13 @@ This changelog is only to log changes of the project base.
 If there are changes on the packages, please, check and update the changelog of each package accordingly.
 -->
 
-# 1.2.1
+# 1.3.0
+
+- Added `stylelint-config-adidas-scss` configuration with custom SCSS rules.
+- Update `stylelint-config-adidas` configuration adding new rules.
+- Fixed `stylelint-config-adidas-bem` package.
+
+## 1.2.1
 
 - Fixed es5 package.
 - Added chalk dependency.
