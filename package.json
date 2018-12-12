@@ -16,15 +16,18 @@
     "npm": ">= 5"
   },
   "scripts": {
+    "setup": "npm run lerna:init && npm run lerna:bootstrap",
+    "lerna:init": "lerna init",
     "lerna:bootstrap": "lerna bootstrap",
     "lerna:exec": "lerna exec",
-    "lerna:publish": "lerna exec -- node \\$LERNA_ROOT_PATH/scripts/publish.js",
+    "lerna:publish": "lerna exec -- safe-publish",
     "lint": "eslint packages scripts"
   },
   "devDependencies": {
     "chalk": "2.4.1",
     "eslint": "5.9.0",
-    "lerna": "2.11.0"
+    "lerna": "2.11.0",
+    "safe-publish": "1.0.0"
   },
   "keywords": [
     "lint",
