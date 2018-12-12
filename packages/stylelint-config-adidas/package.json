@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-adidas",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Stylelint base configuration and rules for CSS",
   "license": "MIT",
   "contributors": [
