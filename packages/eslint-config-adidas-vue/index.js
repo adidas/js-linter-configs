@@ -13,13 +13,21 @@ module.exports = {
     'vue/no-side-effects-in-computed-properties': 'error',
     'vue/no-template-key': 'error',
     'vue/no-textarea-mustache': 'error',
+    'vue/no-unused-components': [
+      'error',
+      {
+        ignoreWhenBindingPresent: false
+      }
+    ],
     'vue/no-unused-vars': 'error',
     'vue/no-use-v-if-with-v-for': [ 'error', { allowUsingIterationVar: false }],
     'vue/require-component-is': 'error',
+    'vue/require-prop-type-constructor': 'error',
     'vue/require-render-return': 'error',
     'vue/require-v-for-key': 'error',
     'vue/require-valid-default-prop': 'error',
     'vue/return-in-computed-property': 'error',
+    'vue/use-v-on-exact': 'error',
     'vue/valid-template-root': 'error',
     'vue/valid-v-bind': 'error',
     'vue/valid-v-cloak': 'error',
@@ -36,6 +44,7 @@ module.exports = {
     'vue/valid-v-text': 'error',
 
     'vue/attribute-hyphenation': [ 'error', 'always' ],
+    'vue/component-name-in-template-casing': [ 'error', 'kebab-case' ],
     'vue/html-closing-bracket-newline': [ 'error', { singleline: 'never', multiline: 'never' }],
     'vue/html-closing-bracket-spacing': [
       'error',
@@ -43,6 +52,7 @@ module.exports = {
     ],
     'vue/html-end-tags': 'error',
     'vue/html-indent': [ 'error', 2, { attribute: 2, closeBracket: 2, alignAttributesVertically: false }],
+    'vue/html-quotes': [ 'error', 'double' ],
     'vue/html-self-closing': [
       'error',
       {
@@ -58,17 +68,20 @@ module.exports = {
         multiline: { max: 1, allowFirstLine: true }
       }
     ],
+    'vue/multiline-html-element-content-newline': 'off',
     'vue/mustache-interpolation-spacing': [ 'error', 'always' ],
     'vue/name-property-casing': [ 'error', 'kebab-case' ],
     'vue/no-multi-spaces': 'error',
+    'vue/no-spaces-around-equal-signs-in-attribute': 'error',
+    'vue/no-template-shadow': 'error',
     'vue/prop-name-casing': [ 'error', 'camelCase' ],
     'vue/require-default-prop': 'off',
     'vue/require-prop-types': 'off',
+    'vue/singleline-html-element-content-newline': 'off',
     'vue/v-bind-style': [ 'error', 'shorthand' ],
     'vue/v-on-style': [ 'error', 'shorthand' ],
 
     'vue/attributes-order': 'off',
-    'vue/html-quotes': [ 'error', 'double' ],
     'vue/no-v-html': 'error',
     'vue/order-in-components': [
       'error',

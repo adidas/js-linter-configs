@@ -1,3 +1,7 @@
+## 1.2.1
+
+- Disabled `selector-pseudo-element-colon-notation` rule.
+
 # 1.2.0
 
 - Added a bunch of new rules of `stylelint` until version `9.9`.

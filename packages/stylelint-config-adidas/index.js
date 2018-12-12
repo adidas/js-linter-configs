@@ -218,7 +218,7 @@ module.exports = {
     'selector-pseudo-class-whitelist': null,
     'selector-pseudo-element-blacklist': null,
     'selector-pseudo-element-case': 'lower',
-    'selector-pseudo-element-colon-notation': 'single',
+    'selector-pseudo-element-colon-notation': null,
     'selector-pseudo-element-no-unknown': true,
     'selector-pseudo-element-whitelist': null,
     'selector-type-case': 'lower',

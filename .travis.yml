@@ -7,9 +7,13 @@ install:
 - npm install
 
 script:
+- export TAG_REGEX=^[0-9]+\.[0-9]+\.[0-9]+
+- npm run setup
 - npm run lint
-- npm run lerna:bootstrap
-- npm run lerna:exec -- cp ../../LICENSE .
+- if [[ $TRAVIS_TAG =~ $TAG_REGEX ]];
+  then
+    npm run lerna:exec -- cp ../../LICENSE .;
+  fi
 
 deploy:
   provider: script
@@ -17,4 +21,4 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
-    condition: $TRAVIS_TAG =~ ^[0-9]+\.[0-9]+\.[0-9]+
+    condition: $TRAVIS_TAG =~ $TAG_REGEX
