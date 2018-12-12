@@ -21,7 +21,7 @@
     "lerna:bootstrap": "lerna bootstrap",
     "lerna:exec": "lerna exec",
     "lerna:publish": "lerna exec -- safe-publish",
-    "lint": "eslint packages scripts"
+    "lint": "eslint packages"
   },
   "devDependencies": {
     "chalk": "2.4.1",
