@@ -1,12 +1,24 @@
 dist: trusty
 language: node_js
 node_js:
-- "8"
+- "10"
 
 install:
 - npm install
 
 script:
-- npm run lerna:bootstrap
-- npm run lerna:exec -- cp ../../LICENSE .
-- .travis/publish.sh
+- export TAG_REGEX=^[0-9]+\.[0-9]+\.[0-9]+
+- npm run setup
+- npm run lint
+- if [[ $TRAVIS_TAG =~ $TAG_REGEX ]];
+  then
+    npm run lerna:exec -- cp ../../LICENSE .;
+  fi
+
+deploy:
+  provider: script
+  script: bash .travis/publish.sh
+  skip_cleanup: true
+  on:
+    tags: true
+    condition: $TRAVIS_TAG =~ $TAG_REGEX

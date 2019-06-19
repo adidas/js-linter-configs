@@ -1,3 +1,8 @@
+# 1.1.0
+
+- Updated ESLint to version 5.
+- Updated `eslint-config-adidas-es6` dependency using major range selector.
+
 ## 1.0.1
 
 - Renamed folder to match package name.

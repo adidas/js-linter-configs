@@ -7,7 +7,7 @@ Adds ESLint settings and rules for Vue framework.
 ## Install
 
 ```
-npm i --save-dev eslint@4 eslint-plugin-vue@4 eslint-config-adidas-vue
+npm i --save-dev eslint@5 eslint-plugin-vue@5 eslint-config-adidas-vue
 ```
 
 ## Usage

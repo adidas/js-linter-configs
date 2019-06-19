@@ -11,7 +11,7 @@ This set of rules is not too restrictive since ES8 features are yet in evaluatio
 ## Install
 
 ```
-npm i --save-dev eslint@4 eslint-plugin-import@2 eslint-plugin-promise@3 eslint-config-adidas-es8
+npm i --save-dev eslint@5 eslint-plugin-import@2 eslint-plugin-promise@4 eslint-config-adidas-es8
 ```
 
 ## Usage

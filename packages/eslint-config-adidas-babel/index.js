@@ -1,8 +1,12 @@
 module.exports = {
   parser: 'babel-eslint',
   parserOptions: {
+    allowImportExportEverywhere: false,
+    codeFrame: false,
     ecmaFeatures: {
-      experimentalObjectRestSpread: true
+      experimentalObjectRestSpread: true,
+      globalReturn: false,
+      legacyDecorators: false
     }
   }
 };

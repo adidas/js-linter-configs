@@ -1,13 +1,12 @@
 {
   "parserOptions": {
-    "ecmaVersion": 6
+    "ecmaVersion": 5
   },
   "extends": [
-    "./packages/eslint-config-es5/index.js",
-    "./packages/eslint-config-env/node.js"
+    "./packages/eslint-config-adidas-es5/index.js",
+    "./packages/eslint-config-adidas-env/node.js"
   ],
   "rules": {
-    "no-console": "off",
     "no-magic-numbers": "off"
   }
 }

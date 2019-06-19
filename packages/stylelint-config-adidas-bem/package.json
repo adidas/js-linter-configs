@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-adidas-bem",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "Stylelint configuration to enforce BEM guidelines",
   "license": "MIT",
   "contributors": [
@@ -18,7 +18,7 @@
   "main": "./index.js",
   "peerDependencies": {
     "stylelint": "^10.1.0",
-    "stylelint-config-adidas": "~1.0"
+    "stylelint-config-adidas": "^1.2"
   },
   "dependencies": {
     "postcss-syntax": "0.36.2",

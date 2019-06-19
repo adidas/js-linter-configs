@@ -2,12 +2,12 @@
 
 # eslint-config-adidas-babel
 
-Adds babel parser and applies some babel settings to eslint configuration.
+Adds Babel parser and applies some babel settings to ESLint configuration.
 
 ## Install
 
 ```
-npm i --save-dev eslint@4 babel-eslint@8 eslint-config-adidas-babel
+npm i --save-dev eslint@5 babel-eslint@10 eslint-config-adidas-babel
 ```
 
 ## Usage

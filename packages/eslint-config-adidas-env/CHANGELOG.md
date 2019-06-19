@@ -1,3 +1,7 @@
+# 1.1.0
+
+- Updated ESLint to version 5.
+
 ## 1.0.1
 
 - Renamed folder to match package name.
