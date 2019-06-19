@@ -17,7 +17,7 @@
   },
   "main": "./browser.js",
   "peerDependencies": {
-    "eslint": "^4"
+    "eslint": "^5"
   },
   "files": [
     "browser.js",

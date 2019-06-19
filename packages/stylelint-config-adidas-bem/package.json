@@ -17,12 +17,12 @@
   },
   "main": "./index.js",
   "peerDependencies": {
-    "stylelint": "^8.4",
+    "stylelint": "^10.1.0",
     "stylelint-config-adidas": "~1.0"
   },
   "dependencies": {
-    "postcss-syntax": "0.32.0",
-    "stylelint-selector-bem-pattern": "2.0.0"
+    "postcss-syntax": "0.36.2",
+    "stylelint-selector-bem-pattern": "2.1.0"
   },
   "files": [
     "index.js",

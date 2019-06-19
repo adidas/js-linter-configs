@@ -17,8 +17,8 @@
   },
   "main": "./index.js",
   "peerDependencies": {
-    "babel-eslint": "^7",
-    "eslint": "^4"
+    "babel-eslint": "^10",
+    "eslint": "^5"
   },
   "files": [
     "index.js",

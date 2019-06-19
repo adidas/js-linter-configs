@@ -20,8 +20,8 @@
     "stylelint": "^8.4"
   },
   "dependencies": {
-    "stylelint-config-standard": "18.2.0",
-    "stylelint-selector-bem-pattern": "2.0.0"
+    "stylelint-config-standard": "18.3.0",
+    "stylelint-selector-bem-pattern": "2.1.0"
   },
   "files": [
     "index.js",
