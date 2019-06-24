@@ -3,6 +3,13 @@ This changelog is only to log changes of the project base.
 If there are changes on the packages, please, check and update the changelog of each package accordingly.
 -->
 
+# 1.5.0
+
+- Updated dev dependency `chalk` to version `2.4.2`
+- Updated dev dependency `eslint` to version `5.16.0`
+- Updated dev dependency `lerna` to version `^3.15.0`
+- Updated dev dependency `safe-publish` to version `1.1.2`
+
 # 1.4.0
 
 - Updated `eslint-config-adidas-vue` with new rules.

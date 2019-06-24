@@ -1,3 +1,7 @@
+# 1.2.0
+
+- Updated peer dependency `eslint-plugin-react` to version `7.14.0`
+
 # 1.1.1
 
 - Removed deprecated rule `react/jsx-space-before-closing`.

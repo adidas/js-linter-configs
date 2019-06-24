@@ -1,3 +1,8 @@
+# 1.3.0
+
+- Updated peer dependency `stylelint` to version `10.1.0`
+- Updated dependency `stylelint-config-standard` to version `18.3.0`
+
 ## 1.2.1
 
 - Disabled `selector-pseudo-element-colon-notation` rule.

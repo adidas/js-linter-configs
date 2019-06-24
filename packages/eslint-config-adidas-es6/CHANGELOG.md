@@ -1,3 +1,7 @@
+# 1.3.0
+
+- Updated peer dependency `eslint-plugin-import` to version `2.17.3`
+
 # 1.2.0
 
 - Updated ESLint to version 5.

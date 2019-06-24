@@ -12,5 +12,5 @@
   "npmClient": "npm",
   "useWorkspaces": false,
   "loglevel": "warn",
-  "version": "1.4.0"
+  "version": "independent"
 }
