@@ -1,0 +1,37 @@
+{
+  "name": "eslint-config-adidas-typescript",
+  "version": "1.0.0",
+  "description": "ESLint base configuration and rules for TypeScript codebases",
+  "license": "MIT",
+  "contributors": [
+    "David Recuenco <david.recuencogadea@gmail.com>",
+    "Jaime Pastor <moelders@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adidas/js-linter-configs.git"
+  },
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.12",
+    "eslint-config-adidas-es9": "^1.1"
+  },
+  "peerDependencies": {
+    "eslint": "^5"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "typescript"
+  ]
+}
