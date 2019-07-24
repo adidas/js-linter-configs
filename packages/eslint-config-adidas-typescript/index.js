@@ -1,5 +1,8 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
+  parserOptions: {
+    project: 'tsconfig.json'
+  },
   plugins: [ '@typescript-eslint' ],
   extends: [
     'adidas-es9',
@@ -11,6 +14,7 @@ module.exports = {
     'func-call-spacing': 'off',
     'indent': 'off',
     'no-array-constructor': 'off',
+    'no-empty-function': [ 'error', { allow: [ 'constructors' ] }],
     'no-extra-parens': 'off',
     'no-magic-numbers': 'off',
     'no-unused-vars': 'off',
@@ -54,7 +58,7 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': [
       'error',
       {
-        allowExpressions: false,
+        allowExpressions: true,
         allowTypedFunctionExpressions: false,
         allowHigherOrderFunctions: false
       }
@@ -132,7 +136,7 @@ module.exports = {
     '@typescript-eslint/member-ordering': [
       'error',
       {
-        order: [
+        default: [
           'public-static-field',
           'public-instance-field',
           'protected-static-field',
@@ -227,6 +231,7 @@ module.exports = {
     '@typescript-eslint/prefer-for-of': 'error',
     '@typescript-eslint/prefer-function-type': 'off',
     '@typescript-eslint/prefer-includes': 'error',
+    '@typescript-eslint/prefer-interface': 'off',
     '@typescript-eslint/prefer-namespace-keyword': 'error',
     '@typescript-eslint/prefer-readonly': [
       'error',
@@ -239,7 +244,7 @@ module.exports = {
     '@typescript-eslint/promise-function-async': [
       'error',
       {
-        allowAny: false,
+        allowAny: true,
         allowedPromiseNames: [],
         checkArrowFunctions: true,
         checkFunctionDeclarations: true,

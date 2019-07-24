@@ -9,7 +9,7 @@ This should be the base for every TypeScript project.
 ## Install
 
 ```
-npm i --save-dev eslint@5 eslint-config-adidas-typescript
+npm i --save-dev eslint@5 eslint-config-adidas-typescript eslint-plugin-import@2 eslint-plugin-promise@4
 ```
 
 ## Usage
@@ -18,7 +18,10 @@ Create a `.eslintrc` file on the root folder of the project and add the followin
 
 ```json
 {
-  "extends": "adidas-typescript"
+  "extends": "adidas-typescript",
+  "parserOptions": {
+    "tsconfigRootDir": "."
+  }
 }
 ```
 
@@ -78,4 +81,3 @@ To override, add a `rules` entry in your `.eslintrc` configuration and set any r
 - [TSLint in 2019](https://medium.com/palantir/tslint-in-2019-1a144c2317a9)
 - [TSLint -> ESLint roadmap](https://github.com/palantir/tslint/issues/4534)
 - [FAQ: ESLint Peer Dependencies](../../CHANGELOG.md#ESLint-Peer-Dependencies)
-
