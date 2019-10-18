@@ -3,6 +3,10 @@ This changelog is only to log changes of the project base.
 If there are changes on the packages, please, check and update the changelog of each package accordingly.
 -->
 
+# 1.6.0
+
+- Upgraded `eslint-config-adidas-typescript` dependencies and rules.
+
 ## 1.5.1
 
 - Fixed missing configuration for `@typescript-eslint/type-annotation-spacing`.
