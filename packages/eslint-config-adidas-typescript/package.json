@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-adidas-typescript",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "ESLint base configuration and rules for TypeScript codebases",
   "license": "MIT",
   "contributors": [
@@ -17,12 +17,12 @@
   },
   "main": "./index.js",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.12",
-    "@typescript-eslint/parser": "^1.13",
+    "@typescript-eslint/eslint-plugin": "^2.4",
+    "@typescript-eslint/parser": "^2.4",
     "eslint-config-adidas-es9": "^1.1"
   },
   "peerDependencies": {
-    "eslint": "^5"
+    "eslint": "^6"
   },
   "files": [
     "index.js",

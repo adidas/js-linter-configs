@@ -22,7 +22,7 @@ module.exports = {
     'no-useless-constructor': 'off',
     'semi': 'off',
     '@typescript-eslint/adjacent-overload-signatures': 'error',
-    '@typescript-eslint/array-type': [ 'error', 'generic' ],
+    '@typescript-eslint/array-type': [ 'error', { readonly: 'generic', default: 'generic' }],
     '@typescript-eslint/await-thenable': 'error',
     '@typescript-eslint/ban-ts-ignore': 'error',
     '@typescript-eslint/ban-types': [
@@ -54,6 +54,7 @@ module.exports = {
       }
     ],
     '@typescript-eslint/class-name-casing': 'error',
+    '@typescript-eslint/consistent-type-assertions': 'error',
     '@typescript-eslint/consistent-type-definitions': 'off',
     '@typescript-eslint/explicit-function-return-type': [
       'error',
@@ -155,7 +156,6 @@ module.exports = {
         ]
       }
     ],
-    '@typescript-eslint/no-angle-bracket-type-assertion': 'error',
     '@typescript-eslint/no-array-constructor': 'error',
     '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/no-empty-interface': 'error',
@@ -195,7 +195,6 @@ module.exports = {
       }
     ],
     '@typescript-eslint/no-non-null-assertion': 'error',
-    '@typescript-eslint/no-object-literal-type-assertion': 'error',
     '@typescript-eslint/no-parameter-properties': 'off',
     '@typescript-eslint/no-require-imports': 'off',
     '@typescript-eslint/no-this-alias': [
@@ -231,7 +230,6 @@ module.exports = {
     '@typescript-eslint/prefer-for-of': 'error',
     '@typescript-eslint/prefer-function-type': 'off',
     '@typescript-eslint/prefer-includes': 'error',
-    '@typescript-eslint/prefer-interface': 'off',
     '@typescript-eslint/prefer-namespace-keyword': 'error',
     '@typescript-eslint/prefer-readonly': [
       'error',
