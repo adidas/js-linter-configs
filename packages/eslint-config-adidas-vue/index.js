@@ -1,9 +1,12 @@
 module.exports = {
   extends: 'plugin:vue/base',
   rules: {
+
+    // base rules
     'vue/comment-directive': 'error',
     'vue/jsx-uses-vars': 'error',
 
+    // priority A: essential
     'vue/no-async-in-computed-properties': 'error',
     'vue/no-dupe-keys': 'error',
     'vue/no-duplicate-attributes': [ 'error', { allowCoexistClass: true, allowCoexistStyle: true }],
@@ -43,8 +46,8 @@ module.exports = {
     'vue/valid-v-show': 'error',
     'vue/valid-v-text': 'error',
 
+    // priority B: strongly recommended
     'vue/attribute-hyphenation': [ 'error', 'always' ],
-    'vue/component-name-in-template-casing': [ 'error', 'kebab-case' ],
     'vue/html-closing-bracket-newline': [ 'error', { singleline: 'never', multiline: 'never' }],
     'vue/html-closing-bracket-spacing': [
       'error',
@@ -81,6 +84,7 @@ module.exports = {
     'vue/v-bind-style': [ 'error', 'shorthand' ],
     'vue/v-on-style': [ 'error', 'shorthand' ],
 
+    // priority C: recommended
     'vue/attributes-order': 'off',
     'vue/no-v-html': 'error',
     'vue/order-in-components': [
@@ -108,6 +112,30 @@ module.exports = {
     ],
     'vue/this-in-template': [ 'error', 'never' ],
 
-    'vue/script-indent': [ 'off', 2, { baseIndent: 0, switchCase: 0 }]
+    // uncategorized
+    'vue/array-bracket-spacing': [ 'error', 'always', { arraysInArrays: false, objectsInArrays: false }],
+    'vue/arrow-spacing': [ 'error', { before: true, after: true }],
+    'vue/block-spacing': [ 'error', 'always' ],
+    'vue/brace-style': [ 'error', '1tbs', { allowSingleLine: false }],
+    'vue/camelcase': [ 'error', { properties: 'never' }],
+    'vue/comma-dangle': [ 'error', 'never' ],
+    'vue/component-name-in-template-casing': [ 'error', 'kebab-case' ],
+    'vue/dot-location': [ 'error', 'property' ],
+    'vue/eqeqeq': 'error',
+    'vue/key-spacing': [ 'error', { beforeColon: false, afterColon: true, mode: 'strict' }],
+    'vue/keyword-spacing': [ 'error', { before: true, after: true }],
+    'vue/match-component-file-name': 'off',
+    'vue/no-boolean-default': 'error',
+    'vue/no-deprecated-scope-attribute': 'error',
+    'vue/no-empty-pattern': 'error',
+    'vue/no-restricted-syntax': 'off',
+    'vue/object-curly-spacing': [ 'error', 'always', { arraysInObjects: true, objectsInObjects: true }],
+    'vue/require-direct-export': 'error',
+    'vue/script-indent': [ 'off', 2, { baseIndent: 0, switchCase: 0 }],
+    'vue/space-infix-ops': 'error',
+    'vue/space-unary-ops': [ 'error', { words: true, nonwords: false }],
+    'vue/v-on-function-call': [ 'error', 'never' ],
+    'vue/v-slot-style': 'off',
+    'vue/valid-v-slot': 'error'
   }
 };

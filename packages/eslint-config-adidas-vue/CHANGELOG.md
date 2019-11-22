@@ -1,3 +1,32 @@
+# 1.3.0
+
+- Updated ESLint to version 6.
+- Updated peer dependency `eslint-plugin-vue` to version 6.
+- Added rules:
+    - `vue/array-bracket-spacing`.
+    - `vue/arrow-spacing`.
+    - `vue/block-spacing`.
+    - `vue/brace-style`.
+    - `vue/camelcase`.
+    - `vue/comma-dangle`.
+    - `vue/dot-location`.
+    - `vue/eqeqeq`.
+    - `vue/key-spacing`.
+    - `vue/keyword-spacing`.
+    - `vue/match-component-file-name`.
+    - `vue/no-boolean-default`.
+    - `vue/no-deprecated-scope-attribute`.
+    - `vue/no-empty-pattern`.
+    - `vue/no-restricted-syntax`.
+    - `vue/object-curly-spacing`.
+    - `vue/require-direct-export`.
+    - `vue/script-indent`.
+    - `vue/space-infix-ops`.
+    - `vue/space-unary-ops`.
+    - `vue/v-on-function-call`.
+    - `vue/v-slot-style`.
+    - `vue/valid-v-slot`.
+
 # 1.2.0
 
 - Updated peer dependency `eslint-plugin-vue` to version 5.

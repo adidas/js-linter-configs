@@ -1,3 +1,7 @@
+# 1.2.0
+
+- Updated ESLint to version 6.
+
 # 1.1.0
 
 - Upgraded `@typescript-eslint/parser` and `@typescript-eslint/eslint-plugin` to v2.4.0.

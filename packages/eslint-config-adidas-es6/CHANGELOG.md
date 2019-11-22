@@ -1,3 +1,7 @@
+# 1.3.0
+
+- Updated ESLint to version 6.
+
 # 1.2.0
 
 - Updated ESLint to version 5.

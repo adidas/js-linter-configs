@@ -1,3 +1,7 @@
+# 1.2.0
+
+- Updated ESLint to version 6.
+
 # 1.1.1
 
 - Removed deprecated rule `react/jsx-space-before-closing`.
