@@ -21,6 +21,7 @@ module.exports = {
     'no-use-before-define': 'off',
     'no-useless-constructor': 'off',
     'semi': 'off',
+    'space-before-function-paren': 'off',
     '@typescript-eslint/adjacent-overload-signatures': 'error',
     '@typescript-eslint/array-type': [ 'error', { readonly: 'generic', default: 'generic' }],
     '@typescript-eslint/await-thenable': 'error',
@@ -157,9 +158,11 @@ module.exports = {
       }
     ],
     '@typescript-eslint/no-array-constructor': 'error',
+    '@typescript-eslint/no-dynamic-delete': 'off',
     '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/no-empty-interface': 'error',
     '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-extra-non-null-assertion': 'error',
     '@typescript-eslint/no-extra-parens': [
       'error',
       'all',
@@ -207,6 +210,7 @@ module.exports = {
     '@typescript-eslint/no-type-alias': 'off',
     '@typescript-eslint/no-unnecessary-qualifier': 'error',
     '@typescript-eslint/no-unnecessary-type-assertion': 'error',
+    '@typecsript-eslint/no-untyped-public-signature': 'error',
     '@typescript-eslint/no-unused-vars': [
       'error',
       {
@@ -231,6 +235,8 @@ module.exports = {
     '@typescript-eslint/prefer-function-type': 'off',
     '@typescript-eslint/prefer-includes': 'error',
     '@typescript-eslint/prefer-namespace-keyword': 'error',
+    '@typescript-eslint/prefer-nullish-coalescing': 'error',
+    '@typescript-eslint/prefer-optional-chain': 'error',
     '@typescript-eslint/prefer-readonly': [
       'error',
       {
@@ -252,7 +258,16 @@ module.exports = {
     ],
     '@typescript-eslint/require-array-sort-compare': 'error',
     '@typescript-eslint/restrict-plus-operands': 'error',
+    '@typescript-eslint/restrict-template-expressions': 'off',
+    '@typescript-eslint/return-await': [ 'error', 'in-try-catch' ],
     '@typescript-eslint/semi': [ 'error', 'always' ],
+    '@typescript-eslint/space-before-function-paren': [
+      'error', {
+        anonymous: 'never',
+        named: 'never',
+        asyncArrow: 'always'
+      }
+    ],
     '@typescript-eslint/strict-boolean-expressions': 'off',
     '@typescript-eslint/triple-slash-reference': 'error',
     '@typescript-eslint/type-annotation-spacing': [
