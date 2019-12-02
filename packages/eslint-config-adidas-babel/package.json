@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-adidas-babel",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "ESLint configuration to use babel-eslint parser",
   "license": "MIT",
   "contributors": [
@@ -18,7 +18,7 @@
   "main": "./index.js",
   "peerDependencies": {
     "babel-eslint": "^10",
-    "eslint": "^5"
+    "eslint": "^6"
   },
   "files": [
     "index.js",

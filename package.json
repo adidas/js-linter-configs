@@ -1,6 +1,6 @@
 {
   "name": "js-linter-configs",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "adidas configurations for JavaScript linting tools",
   "license": "MIT",
   "contributors": [
@@ -18,15 +18,15 @@
   "scripts": {
     "setup": "npm run lerna:init && npm run lerna:bootstrap",
     "lerna:init": "lerna init",
-    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:bootstrap": "lerna bootstrap --no-ci",
     "lerna:exec": "lerna exec",
     "lerna:publish": "lerna exec -- safe-publish",
     "lint": "eslint packages"
   },
   "devDependencies": {
     "chalk": "2.4.1",
-    "eslint": "5.9.0",
-    "lerna": "2.11.0",
+    "eslint": "6.6.0",
+    "lerna": "3.19.0",
     "safe-publish": "1.0.0"
   },
   "keywords": [

@@ -3,6 +3,12 @@ This changelog is only to log changes of the project base.
 If there are changes on the packages, please, check and update the changelog of each package accordingly.
 -->
 
+# 1.7.0
+
+- Updated eslint to v6.
+- Updated to lerna v3.
+- Updated dependencies for housekeeping (`npm audit fix`).
+
 # 1.6.0
 
 - Upgraded `eslint-config-adidas-typescript` dependencies and rules.
