@@ -3,6 +3,10 @@ This changelog is only to log changes of the project base.
 If there are changes on the packages, please, check and update the changelog of each package accordingly.
 -->
 
+## 1.7.2
+
+- Fixed a rule typo in `eslint-config-adidas-typescript`.
+
 ## 1.7.1
 
 - Updated `eslint-config-adidas-typescript` dependencies and rules.

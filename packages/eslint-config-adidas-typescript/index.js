@@ -210,7 +210,7 @@ module.exports = {
     '@typescript-eslint/no-type-alias': 'off',
     '@typescript-eslint/no-unnecessary-qualifier': 'error',
     '@typescript-eslint/no-unnecessary-type-assertion': 'error',
-    '@typecsript-eslint/no-untyped-public-signature': 'error',
+    '@typescript-eslint/no-untyped-public-signature': 'error',
     '@typescript-eslint/no-unused-vars': [
       'error',
       {

@@ -1,3 +1,7 @@
+## 1.3.1
+
+- Fixed typo in `@typescript-eslint/no-untyped-public-signature`.
+
 # 1.3.0
 
 - Updated `@typescript-eslint/parser` and `@typescript-eslint/eslint-plugin` to v2.9.0.
