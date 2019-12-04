@@ -1,3 +1,16 @@
+# 1.3.0
+
+- Updated `@typescript-eslint/parser` and `@typescript-eslint/eslint-plugin` to v2.9.0.
+- Added rules:
+    - `@typescript-eslint/no-dynamic-delete`
+    - `@typescript-eslint/no-extra-non-null-assertion`
+    - `@typescript-eslint/no-untyped-public-signature`
+    - `@typescript-elsint/prefer-nullish-coalescing`
+    - `@typescript-elsint/prefer-optional-chain`
+    - `@typescript-elsint/restrict-template-expressions`
+    - `@typescript-elsint/return-await`
+    - `@typescript-elsint/space-before-function-paren`
+
 # 1.2.0
 
 - Updated ESLint to version 6.
