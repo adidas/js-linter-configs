@@ -1,5 +1,4 @@
 module.exports = {
-  extends: [ 'stylelint-config-standard' ],
   rules: {
     'at-rule-blacklist': null,
     'at-rule-empty-line-before': [

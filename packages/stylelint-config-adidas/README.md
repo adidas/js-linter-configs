@@ -9,16 +9,19 @@ The configuration extends the _stylelint_ standard: [_stylelint-config-standard_
 ## Install
 
 ```
-npm i --save-dev stylelint@9 stylelint-config-adidas
+npm i --save-dev stylelint@9 stylelint-config-standard stylelint-config-adidas
 ```
 
 ## Project specific configuration.
 
-Create a `.stylelintrc` file on the root folder of the project.
+Create a `.stylelintrc.json` file on the root folder of the project.
 
 ```json
 {
-  "extends": "stylelint-config-adidas"
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-adidas"
+  ]
 }
 ```
 

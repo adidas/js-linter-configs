@@ -19,9 +19,6 @@
   "peerDependencies": {
     "stylelint": "^9.9"
   },
-  "dependencies": {
-    "stylelint-config-standard": "18.2.0"
-  },
   "files": [
     "index.js",
     "README.md",

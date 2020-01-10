@@ -9,16 +9,17 @@ It uses the BEM pattern plugin with some custom rules: [_stylelint-selector-bem-
 ## Install
 
 ```
-npm i --save-dev stylelint@9 stylelint-config-adidas stylelint-config-adidas-bem
+npm i --save-dev stylelint@9 stylelint-config-standard stylelint-config-adidas stylelint-config-adidas-bem
 ```
 
 ## Project specific configuration.
 
-Create a `.stylelintrc` file on the root folder of the project.
+Create a `.stylelintrc.json` file on the root folder of the project.
 
 ```json
 {
   "extends": [
+    "stylelint-config-standard",
     "stylelint-config-adidas",
     "stylelint-config-adidas-bem"
   ]
