@@ -48,7 +48,13 @@ module.exports = {
     'scss/dollar-variable-no-missing-interpolation': true,
     'scss/dollar-variable-pattern': null,
     'scss/percent-placeholder-pattern': null,
-    'scss/double-slash-comment-empty-line-before': 'always',
+    'scss/double-slash-comment-empty-line-before': [
+      'always',
+      {
+        except: [ 'first-nested' ],
+        ignore: [ 'between-comments', 'stylelint-commands' ]
+      }
+    ],
     'scss/double-slash-comment-inline': [
       'never',
       {
