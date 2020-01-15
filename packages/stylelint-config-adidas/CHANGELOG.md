@@ -1,3 +1,7 @@
+# 1.3.0
+
+- Merged #28: use long hex format for colors (`color-hex-length`).
+
 ## 1.2.1
 
 - Disabled `selector-pseudo-element-colon-notation` rule.
