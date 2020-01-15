@@ -3,6 +3,11 @@ This changelog is only to log changes of the project base.
 If there are changes on the packages, please, check and update the changelog of each package accordingly.
 -->
 
+## 1.8.0
+
+- Updated `color-hex-length` in `stylelint-config-adidas`.
+- Updated `scss/double-slash-comment-empty-line-before` in `stylelint-config-adidas-scss`.
+
 ## 1.7.2
 
 - Fixed a rule typo in `eslint-config-adidas-typescript`.
