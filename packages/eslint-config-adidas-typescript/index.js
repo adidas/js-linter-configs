@@ -22,6 +22,7 @@ module.exports = {
     'no-useless-constructor': 'off',
     'semi': 'off',
     'space-before-function-paren': 'off',
+    'valid-jsdoc': 'off',
     '@typescript-eslint/adjacent-overload-signatures': 'error',
     '@typescript-eslint/array-type': [ 'error', { readonly: 'generic', default: 'generic' }],
     '@typescript-eslint/await-thenable': 'error',
