@@ -1,3 +1,9 @@
+# 1.4.0
+
+- Updated ESLint to version 7.
+- Updated `@typescript-eslint/parser` and `@typescript-eslint/eslint-plugin` to v4.14.
+- Updated rules and removed deprecated rules.
+
 ## 1.3.1
 
 - Fixed typo in `@typescript-eslint/no-untyped-public-signature`.

@@ -1,3 +1,8 @@
+# 1.3.0
+
+- Updated ESLint to version 7.
+- Added peer dependency on `eslint-plugin-node`.
+
 # 1.2.0
 
 - Updated ESLint to version 6.

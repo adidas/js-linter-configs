@@ -1,3 +1,15 @@
+# 1.4.0
+
+- Updated ESLint to version 7.
+- Added rules:
+  - `max-classes-per-file`
+  - `no-constructor-return`
+  - `no-import-assign`
+  - `no-restricted-exports`
+  - `no-restricted-modules`
+  - `prefer-exponentiation-operator`
+  - `require-atomic-updates`
+
 # 1.3.0
 
 - Updated ESLint to version 6.

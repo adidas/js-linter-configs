@@ -1,3 +1,8 @@
+# 1.3.0
+
+- Updated ESLint to version 7.
+- Updated peer dependency `eslint-plugin-react` to version 7.22.
+
 # 1.2.0
 
 - Updated ESLint to version 6.

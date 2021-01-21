@@ -1,3 +1,10 @@
+# 1.4.0
+
+- Updated ESLint to version 7.
+- Updated peer dependency `eslint-plugin-vue` to version 7.
+- Updated and organized rules.
+- Added many new rules.
+
 # 1.3.0
 
 - Updated ESLint to version 6.

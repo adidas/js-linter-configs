@@ -1,3 +1,78 @@
+# 1.3.0
+
+- Updated ESLint to version 7.
+- Removed deprecated rules that were moved to `eslint-plugin-node`.
+- Added all missing rules for ES6, 7, 8... as `off`:
+  - `accessor-pairs`
+  - `arrow-body-style`
+  - `arrow-parens`
+  - `arrow-spacing`
+  - `class-methods-use-this`
+  - `generator-star-spacing`
+  - `implicit-arrow-linebreak`
+  - `lines-between-class-members`
+  - `max-classes-per-file`
+  - `no-async-promise-executor`
+  - `no-await-in-loop`
+  - `no-class-assign`
+  - `no-confusing-arrow`
+  - `no-constructor-return`
+  - `no-dupe-class-members`
+  - `no-duplicate-imports`
+  - `no-import-assign`
+  - `no-new-symbol`
+  - `no-restricted-exports`
+  - `no-restricted-imports`
+  - `no-restricted-modules`
+  - `no-return-await`
+  - `no-template-curly-in-string`
+  - `no-unsafe-optional-chaining`
+  - `no-useless-computed-key`
+  - `no-useless-constructor`
+  - `no-useless-rename`
+  - `object-shorthand`
+  - `prefer-const`
+  - `prefer-destructuring`
+  - `prefer-exponentiation-operator`
+  - `prefer-named-capture-group`
+  - `prefer-numeric-literals`
+  - `prefer-object-spread`
+  - `prefer-promise-reject-errors`
+  - `prefer-spread`
+  - `prefer-template`
+  - `require-atomic-updates`
+  - `require-await`
+  - `require-yield`
+  - `rest-spread-spacing`
+  - `sort-imports`
+  - `symbol-description`
+  - `template-curly-spacing`
+  - `template-tag-spacing`
+  - `yield-star-spacing`
+- Added new rules:
+  - `default-case-last`
+  - `default-param-last`
+  - `function-call-argument-newline`
+  - `grouped-accessor-pairs`
+  - `lines-around-directive`
+  - `max-lines-per-function`
+  - `max-statements`
+  - `newline-before-return`
+  - `no-case-declarations`
+  - `no-dupe-else-if`
+  - `no-empty-character-class`
+  - `no-empty-pattern`
+  - `no-loss-of-precision`
+  - `no-misleading-character-class`
+  - `no-nonoctal-decimal-escape`
+  - `no-restricted-properties`
+  - `no-setter-return`
+  - `no-unreachable-loop`
+  - `no-useless-backreference`
+  - `no-useless-catch`
+  - `prefer-regex-literals`
+  - `require-unicode-regexp`
+
 # 1.2.0
 
 - Updated ESLint to version 6.

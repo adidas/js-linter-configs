@@ -1,3 +1,10 @@
+# 1.3.0
+
+- Updated ESLint to version 7.
+- Added rules:
+  - `prefer-named-capture-group`
+  - `prefer-object-spread`
+
 # 1.2.0
 
 - Updated ESLint to version 6.

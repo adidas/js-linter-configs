@@ -3,7 +3,12 @@ This changelog is only to log changes of the project base.
 If there are changes on the packages, please, check and update the changelog of each package accordingly.
 -->
 
-## 1.8.0
+# 1.9.0
+
+- Updated eslint to v7.
+- Updated dependencies for housekeeping (`npm audit fix`).
+
+# 1.8.0
 
 - Updated `color-hex-length` in `stylelint-config-adidas`.
 - Updated `scss/double-slash-comment-empty-line-before` in `stylelint-config-adidas-scss`.
