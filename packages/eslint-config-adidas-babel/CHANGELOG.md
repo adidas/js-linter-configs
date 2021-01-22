@@ -1,3 +1,8 @@
+# 1.3.0
+
+- Updated ESLint to version 7.
+- Replaced `babel-eslint@10` by `@babel/eslint-parser@7`.
+
 # 1.2.0
 
 - Updated ESLint to version 6.

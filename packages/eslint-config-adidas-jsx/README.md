@@ -7,7 +7,7 @@ Adds ESLint settings for JSX.
 ## Install
 
 ```
-npm i --save-dev eslint@5 eslint-config-adidas-jsx
+npm i --save-dev eslint@7 eslint-config-adidas-jsx
 ```
 
 ## Usage

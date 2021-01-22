@@ -5,10 +5,11 @@ module.exports = {
     commonjs: true
   },
   rules: {
-    'callback-return': 'off',
-    'handle-callback-err': 'error',
     'no-buffer-constructor': 'error',
-    'no-path-concat': 'error',
-    'no-sync': 'off'
+
+    'node/callback-return': 'off',
+    'node/handle-callback-err': 'error',
+    'node/no-path-concat': 'error',
+    'node/no-sync': 'off'
   }
 };

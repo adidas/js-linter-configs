@@ -1,9 +1,10 @@
 module.exports = {
   extends: [ 'eslint-config-adidas-es7' ].map(require.resolve),
-  parserOptions: {
-    ecmaVersion: 8
+  env: {
+    es2017: true
   },
   rules: {
+    'no-async-promise-executor': 'error',
     'no-await-in-loop': 'error',
     'no-return-await': 'off',
     'require-await': 'off',

@@ -1,3 +1,9 @@
+# 1.3.0
+
+- Updated ESLint to version 7.
+- Added rules:
+  - `no-async-promise-executor`
+
 # 1.2.0
 
 - Updated ESLint to version 6.
