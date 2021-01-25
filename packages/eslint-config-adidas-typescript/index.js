@@ -40,14 +40,7 @@ module.exports = {
     '@typescript-eslint/consistent-type-assertions': 'error',
     '@typescript-eslint/consistent-type-definitions': 'off',
     '@typescript-eslint/consistent-type-imports': 'off',
-    '@typescript-eslint/explicit-function-return-type': [
-      'error',
-      {
-        allowExpressions: true,
-        allowTypedFunctionExpressions: false,
-        allowHigherOrderFunctions: false
-      }
-    ],
+    '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': [
       'error',
       {
@@ -98,7 +91,32 @@ module.exports = {
       }
     ],
     '@typescript-eslint/method-signature-style': [ 'error', 'method' ],
-    '@typescript-eslint/naming-convention': 'error',
+    '@typescript-eslint/naming-convention': [
+      'error',
+      {
+        selector: 'default',
+        format: [ 'camelCase' ],
+        leadingUnderscore: 'allow',
+        trailingUnderscore: 'allow'
+      },
+
+      {
+        selector: 'variable',
+        format: [ 'camelCase', 'UPPER_CASE' ],
+        leadingUnderscore: 'allow',
+        trailingUnderscore: 'allow'
+      },
+
+      {
+        selector: [ 'property', 'parameter' ],
+        format: null
+      },
+
+      {
+        selector: 'typeLike',
+        format: [ 'PascalCase' ]
+      }
+    ],
     '@typescript-eslint/no-base-to-string': 'error',
     '@typescript-eslint/no-confusing-non-null-assertion': 'off',
     '@typescript-eslint/no-confusing-void-expression': 'off',
@@ -140,7 +158,7 @@ module.exports = {
     ],
     '@typescript-eslint/no-type-alias': 'off',
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
-    '@typescript-eslint/no-unnecessary-condition': 'error',
+    '@typescript-eslint/no-unnecessary-condition': 'off',
     '@typescript-eslint/no-unnecessary-qualifier': 'error',
     '@typescript-eslint/no-unnecessary-type-arguments': 'error',
     '@typescript-eslint/no-unnecessary-type-assertion': 'error',

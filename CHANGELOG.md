@@ -3,6 +3,10 @@ This changelog is only to log changes of the project base.
 If there are changes on the packages, please, check and update the changelog of each package accordingly.
 -->
 
+## 1.9.1
+
+- Updated rules for `eslint-config-adidas-es5`, `eslint-config-adidas-es9` and `eslint-config-adidas-typescript`.
+
 # 1.9.0
 
 - Updated eslint to v7.
