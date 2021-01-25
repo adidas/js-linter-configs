@@ -1,3 +1,8 @@
+## 1.4.1
+
+- Disabled `@typescript-eslint/explicit-function-return-type` and `@typescript-eslint/no-unnecessary-condition`.
+- Updated `@typescript-eslint/naming-convention`.
+
 # 1.4.0
 
 - Updated ESLint to version 7.

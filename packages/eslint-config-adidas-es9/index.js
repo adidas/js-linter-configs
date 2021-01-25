@@ -4,7 +4,7 @@ module.exports = {
     ecmaVersion: 9
   },
   rules: {
-    'prefer-named-capture-group': 'error',
+    'prefer-named-capture-group': 'off',
     'prefer-object-spread': 'error'
   }
 };
