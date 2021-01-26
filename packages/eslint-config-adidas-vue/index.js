@@ -88,7 +88,7 @@ module.exports = {
 
     // priority B: strongly recommended
     'vue/attribute-hyphenation': [ 'error', 'always' ],
-    'vue/component-definition-name-casing': [ 'error', 'PascalCase' ],
+    'vue/component-definition-name-casing': [ 'error', 'kebab-case' ],
     'vue/html-closing-bracket-newline': [ 'error', { singleline: 'never', multiline: 'never' }],
     'vue/html-closing-bracket-spacing': [
       'error',
@@ -114,7 +114,6 @@ module.exports = {
     ],
     'vue/multiline-html-element-content-newline': 'off',
     'vue/mustache-interpolation-spacing': [ 'error', 'always' ],
-    'vue/name-property-casing': [ 'error', 'kebab-case' ],
     'vue/no-multi-spaces': 'error',
     'vue/no-spaces-around-equal-signs-in-attribute': 'error',
     'vue/no-template-shadow': 'error',
