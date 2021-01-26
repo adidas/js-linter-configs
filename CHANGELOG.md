@@ -6,6 +6,7 @@ If there are changes on the packages, please, check and update the changelog of 
 ## 1.9.2
 
 - Updated rules for `eslint-config-adidas-react`.
+- Updated rules for `eslint-config-adidas-vue`.
 
 ## 1.9.1
 
