@@ -107,7 +107,7 @@ module.exports = {
       }
     ],
     'react/jsx-equals-spacing': [ 'error', 'never' ],
-    'react/jsx-filename-extension': [ 'error', { extensions: [ '.js', '.jsx' ] }],
+    'react/jsx-filename-extension': [ 'error', { extensions: [ '.js', '.jsx', '.ts', '.tsx' ] }],
     'react/jsx-first-prop-new-line': [ 'error', 'never' ],
     'react/jsx-handler-names': [
       'error',
