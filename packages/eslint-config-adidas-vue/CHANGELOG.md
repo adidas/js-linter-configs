@@ -1,3 +1,8 @@
+## 1.4.1
+
+- Removed deprecated rule `vue/name-property-casing`.
+- Updated rule `vue/component-definition-name-casing`.
+
 # 1.4.0
 
 - Updated ESLint to version 7.
