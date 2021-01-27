@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-adidas-react",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "ESLint configuration and rules for React codebases",
   "license": "MIT",
   "contributors": [
@@ -21,7 +21,7 @@
     "eslint-plugin-react": "^7.11"
   },
   "dependencies": {
-    "eslint-config-adidas-jsx": "^1.1"
+    "eslint-config-adidas-jsx": "~1.1"
   },
   "files": [
     "index.js",

@@ -1,3 +1,7 @@
+## 1.3.2
+
+- Updated `eslint-config-adidas-es9` semver to patch.
+
 ## 1.3.1
 
 - Fixed typo in `@typescript-eslint/no-untyped-public-signature`.
