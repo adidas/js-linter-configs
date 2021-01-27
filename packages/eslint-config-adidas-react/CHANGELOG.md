@@ -1,3 +1,7 @@
+## 1.3.2
+
+- Updated `eslint-config-adidas-jsx` semver to patch.
+
 ## 1.3.1
 
 - Updated `react/jsx-filename-extension` to allow TypeScript files (#31).
@@ -6,6 +10,10 @@
 
 - Updated ESLint to version 7.
 - Updated peer dependency `eslint-plugin-react` to version 7.22.
+
+## 1.2.1
+
+- Updated `eslint-config-adidas-jsx` semver to patch.
 
 # 1.2.0
 

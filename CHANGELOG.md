@@ -3,6 +3,10 @@ This changelog is only to log changes of the project base.
 If there are changes on the packages, please, check and update the changelog of each package accordingly.
 -->
 
+## 1.9.3
+
+- Fixed semver of required patch versions.
+
 ## 1.9.2
 
 - Updated rules for `eslint-config-adidas-react`.
@@ -16,6 +20,10 @@ If there are changes on the packages, please, check and update the changelog of 
 
 - Updated eslint to v7.
 - Updated dependencies for housekeeping (`npm audit fix`).
+
+## 1.8.1
+
+- Fixed semver of required patch versions.
 
 # 1.8.0
 

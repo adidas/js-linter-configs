@@ -1,3 +1,7 @@
+## 1.4.2
+
+- Updated `eslint-config-adidas-es9` semver to patch.
+
 ## 1.4.1
 
 - Disabled `@typescript-eslint/explicit-function-return-type` and `@typescript-eslint/no-unnecessary-condition`.
@@ -8,6 +12,10 @@
 - Updated ESLint to version 7.
 - Updated `@typescript-eslint/parser` and `@typescript-eslint/eslint-plugin` to v4.14.
 - Updated rules and removed deprecated rules.
+
+## 1.3.2
+
+- Updated `eslint-config-adidas-es9` semver to patch.
 
 ## 1.3.1
 

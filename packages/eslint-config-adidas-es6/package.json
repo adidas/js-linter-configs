@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-adidas-es6",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "ESLint configuration and rules for ECMAScript 6",
   "license": "MIT",
   "contributors": [
@@ -22,7 +22,7 @@
     "eslint-plugin-promise": "^4"
   },
   "dependencies": {
-    "eslint-config-adidas-es5": "^1.3"
+    "eslint-config-adidas-es5": "~1.3"
   },
   "files": [
     "index.js",

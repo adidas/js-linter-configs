@@ -1,3 +1,7 @@
+## 1.3.2
+
+- Updated `eslint-config-adidas-es8` semver to patch.
+
 ## 1.3.1
 
 - Disabled `prefer-named-capture-group`.
@@ -8,6 +12,10 @@
 - Added rules:
   - `prefer-named-capture-group`
   - `prefer-object-spread`
+
+## 1.2.1
+
+- Updated `eslint-config-adidas-es8` semver to patch.
 
 # 1.2.0
 
