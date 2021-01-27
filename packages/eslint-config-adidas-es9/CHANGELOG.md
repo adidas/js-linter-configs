@@ -9,6 +9,10 @@
   - `prefer-named-capture-group`
   - `prefer-object-spread`
 
+## 1.2.1
+
+- Updated `eslint-config-adidas-es8` semver to patch.
+
 # 1.2.0
 
 - Updated ESLint to version 6.

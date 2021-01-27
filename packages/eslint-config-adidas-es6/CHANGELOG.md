@@ -10,6 +10,10 @@
   - `prefer-exponentiation-operator`
   - `require-atomic-updates`
 
+## 1.3.1
+
+- Updated `eslint-config-adidas-es5` semver to patch.
+
 # 1.3.0
 
 - Updated ESLint to version 6.

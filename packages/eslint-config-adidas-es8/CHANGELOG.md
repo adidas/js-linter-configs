@@ -4,6 +4,10 @@
 - Added rules:
   - `no-async-promise-executor`
 
+## 1.2.1
+
+- Updated `eslint-config-adidas-es7` semver to patch.
+
 # 1.2.0
 
 - Updated ESLint to version 6.

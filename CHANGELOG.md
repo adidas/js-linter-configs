@@ -17,6 +17,10 @@ If there are changes on the packages, please, check and update the changelog of 
 - Updated eslint to v7.
 - Updated dependencies for housekeeping (`npm audit fix`).
 
+## 1.8.1
+
+- Fixed semver of required patch versions.
+
 # 1.8.0
 
 - Updated `color-hex-length` in `stylelint-config-adidas`.

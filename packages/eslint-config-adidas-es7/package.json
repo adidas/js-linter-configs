@@ -20,7 +20,7 @@
     "eslint": "^7"
   },
   "dependencies": {
-    "eslint-config-adidas-es6": "^1.4"
+    "eslint-config-adidas-es6": "~1.4"
   },
   "files": [
     "index.js",
