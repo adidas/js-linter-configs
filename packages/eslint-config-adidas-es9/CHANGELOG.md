@@ -1,3 +1,7 @@
+## 1.3.2
+
+- Updated `eslint-config-adidas-es8` semver to patch.
+
 ## 1.3.1
 
 - Disabled `prefer-named-capture-group`.

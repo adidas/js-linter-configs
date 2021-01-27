@@ -1,3 +1,7 @@
+## 1.3.1
+
+- Updated `eslint-config-adidas-es6` semver to patch.
+
 # 1.3.0
 
 - Updated ESLint to version 7.
