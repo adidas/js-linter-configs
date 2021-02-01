@@ -108,11 +108,6 @@ module.exports = {
       },
 
       {
-        selector: [ 'property', 'parameter' ],
-        format: null
-      },
-
-      {
         selector: 'typeLike',
         format: [ 'PascalCase' ]
       }
