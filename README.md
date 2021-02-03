@@ -1,6 +1,6 @@
 ![](./logo.png)
 
-![[](https://travis-ci.com/adidas/js-linter-configs)](https://api.travis-ci.com/adidas/js-linter-configs.svg?branch=master)
+![Build](https://github.com/adidas/js-linter-configs/workflows/Build/badge.svg)
 
 # adidas linter configurations
 
