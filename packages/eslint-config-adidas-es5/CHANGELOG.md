@@ -1,3 +1,7 @@
+## 1.3.2
+
+- Updated `no-unused-vars` config to match `@typescript-eslint/no-unused-vars`.
+
 ## 1.3.1
 
 - Disabled `require-unicode-regexp`.
