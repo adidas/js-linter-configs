@@ -3,6 +3,10 @@ This changelog is only to log changes of the project base.
 If there are changes on the packages, please, check and update the changelog of each package accordingly.
 -->
 
+## 1.9.6
+
+- Updated configuration for `eslint-config-adidas-es5`.
+
 ## 1.9.5
 
 - Replaced TravisCI by GitHub Actions

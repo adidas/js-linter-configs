@@ -241,7 +241,7 @@ module.exports = {
     'no-unsafe-optional-chaining': 'off',
     'no-unused-expressions': 'off',
     'no-unused-labels': 'error',
-    'no-unused-vars': [ 'error', { vars: 'all', args: 'after-used' }],
+    'no-unused-vars': [ 'error', { vars: 'all', args: 'after-used', ignoreRestSiblings: true, caughtErrors: 'none' }],
     'no-use-before-define': 'off',
     'no-useless-backreference': 'error',
     'no-useless-call': 'error',
