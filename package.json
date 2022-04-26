@@ -12,22 +12,18 @@
     "url": "https://github.com/adidas/js-linter-configs.git"
   },
   "engines": {
-    "node": ">= 12",
-    "npm": ">= 6"
+    "node": ">= 16",
+    "npm": ">= 8"
   },
+  "workspaces": [ "packages/*" ],
   "scripts": {
-    "setup": "npm run lerna:init && npm run lerna:bootstrap",
-    "lerna:init": "lerna init",
-    "lerna:bootstrap": "lerna bootstrap --no-ci",
-    "lerna:exec": "lerna exec",
-    "lerna:publish": "lerna exec -- safe-publish",
+    "safe-publish": "npm exec --workspaces -- safe-publish",
     "lint": "eslint packages"
   },
   "devDependencies": {
     "chalk": "4.1.0",
     "eslint": "7.18.0",
     "eslint-plugin-node": "11.1.0",
-    "lerna": "3.22.1",
     "safe-publish": "1.2.1"
   },
   "keywords": [

@@ -3,6 +3,11 @@ This changelog is only to log changes of the project base.
 If there are changes on the packages, please, check and update the changelog of each package accordingly.
 -->
 
+# 2.0.0
+
+- Replaced `lerna` by npm workspaces.
+- Updated engine requirements to node 16 and npm 8.
+
 ## 1.9.6
 
 - Updated configuration for `eslint-config-adidas-es5`.

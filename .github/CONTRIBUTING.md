@@ -32,11 +32,11 @@ npm run lint
 Once the version and changelog of either a package or several packages are updated, the publication script has to be executed.
 
 ```
-npm run lerna:publish
+npm run safe-publish
 ```
 
 There is a dry-run mode to test that everything works before executing the NPM publication:
 
 ```
-DRY_RUN=true npm run lerna:publish
+DRY_RUN=true npm run safe-publish
 ```
