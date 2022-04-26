@@ -22,7 +22,7 @@ adidas is not responsible for the usage of this software for different purposes 
 
 ## Requirements and dependencies
 
-This repository contains different linter configuration which are independent packages. It means that all these packages are published independently but managed all together. [Lerna](https://lernajs.io/) is the tool used to manage them.
+This repository contains different linter configuration which are independent packages. It means that all these packages are published independently but managed all together.
 
 [NodeJS/NPM](https://nodejs.org/) are required to work with the repository.
 
@@ -30,8 +30,7 @@ This repository contains different linter configuration which are independent pa
 
 - In development mode (dependencies of the main package):
     ```
-    npm install
-    npm run lerna:bootstrap
+    npm ci
     ```
 - Install a specific package in production mode (installation of each configuration):
     ```

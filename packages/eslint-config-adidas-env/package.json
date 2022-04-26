@@ -12,8 +12,8 @@
     "url": "https://github.com/adidas/js-linter-configs.git"
   },
   "engines": {
-    "node": ">= 12",
-    "npm": ">= 6"
+    "node": ">= 16",
+    "npm": ">= 8"
   },
   "main": "./browser.js",
   "peerDependencies": {
