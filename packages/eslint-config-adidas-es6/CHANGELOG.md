@@ -1,3 +1,10 @@
+## 2.0.0
+
+- Updated ESLint to version 8.
+- Updated engine requirements to node 18 and npm 9.
+- Updated `eslint-plugin-promise` to 6.
+- Updated `eslint-config-adidas-es5` to 2.
+
 ## 1.4.1
 
 - Updated `eslint-config-adidas-es5` semver to patch.
