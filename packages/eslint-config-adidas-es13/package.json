@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-adidas-es9",
+  "version": "1.0.0",
+  "description": "ESLint configuration and rules for ECMAScript 13",
+  "license": "MIT",
+  "contributors": [
+    "David Recuenco <david.recuencogadea@gmail.com>",
+    "Jaime Pastor <moelders@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adidas/js-linter-configs.git"
+  },
+  "engines": {
+    "node": ">= 18",
+    "npm": ">= 9"
+  },
+  "main": "./index.js",
+  "peerDependencies": {
+    "eslint": "^8"
+  },
+  "dependencies": {
+    "eslint-config-adidas-es9": "~2.0"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ]
+}

@@ -1,0 +1,43 @@
+[![npm version](https://badge.fury.io/js/eslint-config-adidas-es13.svg)](https://npmjs.com/package/eslint-config-adidas-es13)
+
+# eslint-config-adidas-es13
+
+ES13 (ES2022) ESLint rules.
+
+These already extend `eslint-config-adidas-es9`.
+
+This set of rules is not too restrictive since ES13 features are yet in evaluation.
+
+## Install
+
+```
+npm i --save-dev eslint@8 eslint-plugin-import@2 eslint-plugin-promise@6 eslint-config-adidas-es13
+```
+
+## Usage
+
+```json
+{
+  "extends": [
+    "adidas-es13"
+  ]
+}
+```
+
+Usually you would mix this with other eslint configurations, like:
+
+```json
+{
+  "extends": [
+    "adidas-env/browser",
+    "adidas-env/modules",
+    "adidas-es13"
+  ]
+}
+```
+
+## Links
+
+- [Base configuration](https://tools.adidas-group.com/bitbucket/projects/BWRNPM/repos/pea-linter-configs/browse/packages/eslint-config-es5)
+- [ESLint](https://eslint.org/)
+- [FAQ: ESLint Peer Dependencies](../../CHANGELOG.md#ESLint-Peer-Dependencies)
