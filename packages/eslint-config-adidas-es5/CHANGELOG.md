@@ -1,3 +1,8 @@
+## 2.0.0
+
+- Updated ESLint to version 8.
+- Updated engine requirements to node 18 and npm 9.
+
 ## 1.3.2
 
 - Updated `no-unused-vars` config to match `@typescript-eslint/no-unused-vars`.
