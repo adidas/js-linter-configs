@@ -3,6 +3,14 @@ This changelog is only to log changes of the project base.
 If there are changes on the packages, please, check and update the changelog of each package accordingly.
 -->
 
+# 3.0.0
+
+- Updated engine requirements to node 18 and npm 9.
+- Updated ecmaVersion to 2022 or es13.
+- Updated `chalk` to 13.
+- Updated `eslint` to 8.
+- Updated `eslint-plugin-node` to 11.
+
 # 2.0.0
 
 - Replaced `lerna` by npm workspaces.
