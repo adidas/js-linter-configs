@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-adidas-scss",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Stylelint configuration to check SCSS specific rules",
   "license": "MIT",
   "contributors": [
@@ -12,13 +12,13 @@
     "url": "https://github.com/adidas/js-linter-configs.git"
   },
   "engines": {
-    "node": ">= 8",
-    "npm": ">= 5"
+    "node": ">= 18",
+    "npm": ">= 9"
   },
   "main": "./index.js",
   "peerDependencies": {
-    "stylelint-config-adidas": "^1.2",
-    "stylelint-scss": "^3.4"
+    "stylelint-config-adidas": "^2.0",
+    "stylelint-scss": "^5.2"
   },
   "files": [
     "index.js",

@@ -9,7 +9,7 @@ It uses the SCSS plugin with some custom rules: [_stylelint-scss_](https://www.n
 ## Install
 
 ```
-npm i --save-dev stylelint@9 stylelint-scss@3 stylelint-config-adidas stylelint-config-adidas-scss
+npm i --save-dev stylelint@15 stylelint-scss@5 stylelint-config-adidas stylelint-config-adidas-scss
 ```
 
 ## Project specific configuration.
