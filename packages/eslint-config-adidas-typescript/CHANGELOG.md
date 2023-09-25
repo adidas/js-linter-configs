@@ -1,3 +1,11 @@
+## 2.0.0
+
+- Updated ESLint to version 8.
+- Updated engine requirements to node 18 and npm 9.
+- Updated `@typescript-eslint/eslint-plugin` to 6.7.
+- Updated `@typescript-eslint/parser` to 6.7.
+- Replaced `eslint-config-adidas-es9` to `eslint-config-adidas-es13`.
+
 ## 1.4.2
 
 - Updated `eslint-config-adidas-es9` semver to patch.

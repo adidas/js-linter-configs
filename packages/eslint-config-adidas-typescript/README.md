@@ -9,7 +9,7 @@ This should be the base for every TypeScript project.
 ## Install
 
 ```
-npm i --save-dev eslint@7 eslint-config-adidas-typescript eslint-plugin-import@2 eslint-plugin-promise@4
+npm i --save-dev eslint@8 eslint-config-adidas-typescript eslint-plugin-import@2 eslint-plugin-promise@6
 ```
 
 ## Usage
