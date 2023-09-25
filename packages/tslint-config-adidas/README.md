@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/tslint-config-adidas.svg)](https://npmjs.com/package/tslint-config-adidas)
+[![npm version](https://badge.fury.io/js/tslint-config-adidas.svg)](https://npmjs.com/package/tslint-config-adidas) [![maintenance-status](https://img.shields.io/badge/maintenance-deprecated-red.svg)](https://github.com/palantir/tslint)
 
 # tslint-config-adidas
 
