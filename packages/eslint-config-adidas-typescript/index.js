@@ -306,7 +306,7 @@ module.exports = {
     '@typescript-eslint/no-dupe-class-members': 'error',
 
     'no-duplicate-imports': 'off',
-    '@typescript-eslint/no-duplicate-imports': 'error',
+    'import/no-duplicates': 'error',
 
     'no-empty-function': 'off',
     '@typescript-eslint/no-empty-function': 'off',
