@@ -1,3 +1,7 @@
+## 2.0.1
+
+- Replaced `@typescript-eslint/no-duplicate-imports` to `import/no-duplicates` since the former [is deprecated](https://typescript-eslint.io/rules/no-duplicate-imports/).
+
 ## 2.0.0
 
 - Updated ESLint to version 8.
