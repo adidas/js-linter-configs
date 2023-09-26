@@ -1,3 +1,9 @@
+## 2.0.0
+
+- Updated engine requirements to node 18 and npm 9.
+- Updated `stylelint-config-adidas` to 2.
+- Updated `stylelint-selector-bem-pattern` to 3.
+
 # 1.2.0
 
 - Updated peer dependency `stylelint-config-adidas` to version `^1.2`.

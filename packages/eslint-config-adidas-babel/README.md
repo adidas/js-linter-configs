@@ -7,7 +7,7 @@ Adds Babel parser and applies some babel settings to ESLint configuration.
 ## Install
 
 ```
-npm i --save-dev eslint@7 @babel/eslint-parser@7 eslint-config-adidas-babel
+npm i --save-dev eslint@8 @babel/eslint-parser@7 eslint-config-adidas-babel
 ```
 
 ## Usage

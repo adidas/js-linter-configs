@@ -1,3 +1,9 @@
+## 2.0.0
+
+- Updated engine requirements to node 18 and npm 9.
+- Updated `stylelint` to 15.10.
+- Updated `stylelint-config-standard` to 34.0.
+
 # 1.3.0
 
 - Merged #28: use long hex format for colors (`color-hex-length`).

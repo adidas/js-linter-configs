@@ -9,7 +9,7 @@ It uses the BEM pattern plugin with some custom rules: [_stylelint-selector-bem-
 ## Install
 
 ```
-npm i --save-dev stylelint@9 stylelint-config-adidas stylelint-config-adidas-bem
+npm i --save-dev stylelint@15 stylelint-config-adidas stylelint-config-adidas-bem
 ```
 
 ## Project specific configuration.

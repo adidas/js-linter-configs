@@ -9,7 +9,7 @@ These already extend `eslint-config-adidas-es5`.
 ## Install
 
 ```
-npm i --save-dev eslint@7 eslint-plugin-import@2 eslint-plugin-promise@4 eslint-config-adidas-es6
+npm i --save-dev eslint@8 eslint-plugin-import@2 eslint-plugin-promise@6 eslint-config-adidas-es6
 ```
 
 ## Usage

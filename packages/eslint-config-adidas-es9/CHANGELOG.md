@@ -1,3 +1,9 @@
+## 2.0.0
+
+- Updated ESLint to version 8.
+- Updated engine requirements to node 18 and npm 9.
+- Updated `eslint-config-adidas-es8` to 2.
+
 ## 1.3.2
 
 - Updated `eslint-config-adidas-es8` semver to patch.

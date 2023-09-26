@@ -5,7 +5,7 @@ module.exports = {
   },
   plugins: [ '@typescript-eslint' ],
   extends: [
-    'adidas-es9',
+    'adidas-es13',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended'
   ],

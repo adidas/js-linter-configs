@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-adidas-es8",
-  "version": "2.0.0",
-  "description": "ESLint configuration and rules for ECMAScript 8",
+  "name": "eslint-config-adidas-es13",
+  "version": "1.0.0",
+  "description": "ESLint configuration and rules for ECMAScript 13",
   "license": "MIT",
   "contributors": [
     "David Recuenco <david.recuencogadea@gmail.com>",
@@ -20,7 +20,7 @@
     "eslint": "^8"
   },
   "dependencies": {
-    "eslint-config-adidas-es7": "~2.0"
+    "eslint-config-adidas-es9": "~2.0"
   },
   "files": [
     "index.js",
