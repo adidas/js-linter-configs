@@ -4,7 +4,6 @@ module.exports = {
 
     // base rules
     'vue/comment-directive': 'error',
-    'vue/experimental-script-setup-vars': 'error',
     'vue/jsx-uses-vars': 'error',
 
     // priority A: essential
@@ -109,7 +108,7 @@ module.exports = {
       'error',
       {
         singleline: Infinity,
-        multiline: { max: 1, allowFirstLine: true }
+        multiline: 1
       }
     ],
     'vue/multiline-html-element-content-newline': 'off',

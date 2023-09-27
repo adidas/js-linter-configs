@@ -1,3 +1,7 @@
+## 2.0.1
+
+- Updted a few rules according to new version requirements
+
 ## 2.0.0
 
 - Updated ESLint to version 8.
