@@ -1,6 +1,6 @@
 {
   "name": "js-linter-configs",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "adidas configurations for JavaScript linting tools",
   "license": "MIT",
   "contributors": [
@@ -15,7 +15,9 @@
     "node": ">= 18",
     "npm": ">= 9"
   },
-  "workspaces": [ "packages/*" ],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "safe-publish": "npm exec --workspaces -- safe-publish",
     "lint": "eslint packages"
@@ -23,7 +25,7 @@
   "devDependencies": {
     "chalk": "5.3.0",
     "eslint": "8.50.0",
-    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-n": "14.0.0",
     "safe-publish": "1.2.1"
   },
   "keywords": [
