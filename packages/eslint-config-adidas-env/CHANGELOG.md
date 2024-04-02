@@ -1,3 +1,7 @@
+## 2.1.0
+
+- Replace dependency eslint-plugin-node with eslint-plugin-n 14.0.0.
+
 ## 2.0.0
 
 - Updated ESLint to version 8.

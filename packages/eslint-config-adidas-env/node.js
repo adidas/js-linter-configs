@@ -7,9 +7,9 @@ module.exports = {
   rules: {
     'no-buffer-constructor': 'error',
 
-    'node/callback-return': 'off',
-    'node/handle-callback-err': 'error',
-    'node/no-path-concat': 'error',
-    'node/no-sync': 'off'
+    'n/callback-return': 'off',
+    'n/handle-callback-err': 'error',
+    'n/no-path-concat': 'error',
+    'n/no-sync': 'off'
   }
 };
