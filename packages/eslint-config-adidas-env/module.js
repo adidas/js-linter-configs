@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: [ 'node' ],
+  plugins: [ 'n' ],
   env: {
     commonjs: true
   },
@@ -7,11 +7,11 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    'node/global-require': 'off',
-    'node/no-mixed-requires': 'off',
-    'node/no-new-require': 'error',
-    'node/no-process-env': 'off',
-    'node/no-process-exit': 'off',
-    'node/no-restricted-modules': 'off'
+    'n/global-require': 'off',
+    'n/no-mixed-requires': 'off',
+    'n/no-new-require': 'error',
+    'n/no-process-env': 'off',
+    'n/no-process-exit': 'off',
+    'n/no-restricted-modules': 'off'
   }
 };

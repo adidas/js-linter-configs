@@ -12,7 +12,7 @@ Environment configurations for ESLint:
 ## Install
 
 ```
-npm i --save-dev eslint@8 eslint-plugin-node@11 eslint-config-adidas-env
+npm i --save-dev eslint@8 eslint-plugin-n@14 eslint-config-adidas-env
 ```
 
 ## Usage

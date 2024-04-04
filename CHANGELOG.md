@@ -3,6 +3,10 @@ This changelog is only to log changes of the project base.
 If there are changes on the packages, please, check and update the changelog of each package accordingly.
 -->
 
+## 3.1.0
+
+- Replace dependency eslint-plugin-node with eslint-plugin-n 14.0.0.
+
 # 3.0.0
 
 - Updated engine requirements to node 18 and npm 9.
