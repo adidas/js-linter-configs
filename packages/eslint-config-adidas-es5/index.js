@@ -1,4 +1,6 @@
 module.exports = {
+  plugins: [ 'jsdoc' ],
+  extends: [ 'plugin:jsdoc/recommended' ],
   parserOptions: {
     ecmaVersion: 5
   },
@@ -338,22 +340,6 @@ module.exports = {
     'template-tag-spacing': 'off',
     'unicode-bom': [ 'error', 'never' ],
     'use-isnan': 'error',
-    'valid-jsdoc': [
-      'error', {
-        prefer: {
-          return: 'returns'
-        },
-        preferType: {
-          array: 'Array',
-          Boolean: 'boolean',
-          Number: 'number',
-          String: 'string'
-        },
-        requireParamDescription: true,
-        requireReturn: false,
-        requireReturnDescription: true
-      }
-    ],
     'valid-typeof': [ 'error', { requireStringLiterals: true }],
     'vars-on-top': 'error',
     'wrap-iife': [ 'error', 'outside' ],

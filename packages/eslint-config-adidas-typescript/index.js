@@ -7,7 +7,8 @@ module.exports = {
   extends: [
     'adidas-es15',
     'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended'
+    'plugin:@typescript-eslint/recommended',
+    'plugin:jsdoc/recommended-typescript'
   ],
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 'error',
