@@ -9,7 +9,7 @@ The configuration extends the _stylelint_ standard: [_stylelint-config-standard_
 ## Install
 
 ```
-npm i --save-dev stylelint@15 stylelint-config-adidas
+npm i --save-dev stylelint@16 stylelint-config-adidas
 ```
 
 ## Project specific configuration.

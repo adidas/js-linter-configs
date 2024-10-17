@@ -1,6 +1,6 @@
 {
   "parserOptions": {
-    "ecmaVersion": 2022
+    "ecmaVersion": 2024
   },
   "extends": [
     "./packages/eslint-config-adidas-es5/index.js",

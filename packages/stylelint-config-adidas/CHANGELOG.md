@@ -1,3 +1,11 @@
+## 3.0.0
+
+- Updated ESLint to version 9.
+- Updated engine requirements to node 20 and npm 10.
+- Updated `@typescript-eslint/eslint-plugin` to 8.9.
+- Updated `stylelint` to 16.10.
+- Updated `stylelint-config-standard` to 36.0.
+
 ## 2.0.0
 
 - Updated engine requirements to node 18 and npm 9.

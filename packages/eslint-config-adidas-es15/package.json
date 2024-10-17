@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-adidas-vue",
-  "version": "3.0.0",
-  "description": "ESLint configuration and rules for Vue codebases",
+  "name": "eslint-config-adidas-es15",
+  "version": "1.0.0",
+  "description": "ESLint configuration and rules for ECMAScript 15",
   "license": "MIT",
   "contributors": [
     "David Recuenco <david.recuencogadea@gmail.com>",
@@ -17,8 +17,10 @@
   },
   "main": "./index.js",
   "peerDependencies": {
-    "eslint": "^9",
-    "eslint-plugin-vue": "^9"
+    "eslint": "^9"
+  },
+  "dependencies": {
+    "eslint-config-adidas-es13": "~2.0"
   },
   "files": [
     "index.js",

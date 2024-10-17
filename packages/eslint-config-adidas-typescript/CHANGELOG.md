@@ -1,3 +1,11 @@
+## 3.0.0
+
+- Updated ESLint to version 9.
+- Updated engine requirements to node 20 and npm 10.
+- Updated `@typescript-eslint/eslint-plugin` to 8.9.
+- Updated `@typescript-eslint/parser` to 8.9.
+- Replaced `eslint-config-adidas-es13` to `eslint-config-adidas-es15`.
+
 ## 2.0.1
 
 - Replaced `@typescript-eslint/no-duplicate-imports` to `import/no-duplicates` since the former [is deprecated](https://typescript-eslint.io/rules/no-duplicate-imports/).

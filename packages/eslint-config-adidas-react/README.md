@@ -9,7 +9,7 @@ These already extend `eslint-config-adidas-jsx`.
 ## Install
 
 ```
-npm i --save-dev eslint@8 eslint-plugin-react@7 eslint-config-adidas-react
+npm i --save-dev eslint@9 eslint-plugin-react@7 eslint-config-adidas-react
 ```
 
 ## Usage
