@@ -11,7 +11,7 @@ This set of rules is not too restrictive since ES13 features are yet in evaluati
 ## Install
 
 ```
-npm i --save-dev eslint@8 eslint-plugin-import@2 eslint-plugin-promise@6 eslint-config-adidas-es13
+npm i --save-dev eslint@9 eslint-plugin-import@2 eslint-plugin-promise@7 eslint-config-adidas-es13
 ```
 
 ## Usage

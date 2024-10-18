@@ -5,9 +5,10 @@ module.exports = {
   },
   plugins: [ '@typescript-eslint' ],
   extends: [
-    'adidas-es13',
+    'adidas-es15',
     'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended'
+    'plugin:@typescript-eslint/recommended',
+    'plugin:jsdoc/recommended-typescript'
   ],
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 'error',

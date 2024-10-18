@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-adidas-bem",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Stylelint configuration to enforce BEM guidelines",
   "license": "MIT",
   "contributors": [
@@ -12,16 +12,16 @@
     "url": "https://github.com/adidas/js-linter-configs.git"
   },
   "engines": {
-    "node": ">= 18",
-    "npm": ">= 9"
+    "node": ">= 20",
+    "npm": ">= 10"
   },
   "main": "./index.js",
   "peerDependencies": {
-    "stylelint-config-adidas": "^2.0"
+    "stylelint-config-adidas": "^3.0"
   },
   "dependencies": {
     "postcss-syntax": "^0.36",
-    "stylelint-selector-bem-pattern": "^3.0"
+    "stylelint-selector-bem-pattern": "^4.0"
   },
   "files": [
     "index.js",

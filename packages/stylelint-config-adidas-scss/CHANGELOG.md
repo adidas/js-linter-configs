@@ -1,3 +1,10 @@
+## 3.0.0
+
+- Updated ESLint to version 9.
+- Updated engine requirements to node 20 and npm 10.
+- Updated `stylelint-config-adidas` to 3.
+- Updated `stylelint-scss` to 6.8.
+
 ## 2.0.0
 
 - Updated engine requirements to node 18 and npm 9.

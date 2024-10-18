@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-adidas",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Stylelint base configuration and rules for CSS",
   "license": "MIT",
   "contributors": [
@@ -12,15 +12,15 @@
     "url": "https://github.com/adidas/js-linter-configs.git"
   },
   "engines": {
-    "node": ">= 18",
-    "npm": ">= 9"
+    "node": ">= 20",
+    "npm": ">= 10"
   },
   "main": "./index.js",
   "peerDependencies": {
-    "stylelint": "^15.10"
+    "stylelint": "^16.10"
   },
   "dependencies": {
-    "stylelint-config-standard": "^34.0"
+    "stylelint-config-standard": "^36.0"
   },
   "files": [
     "index.js",

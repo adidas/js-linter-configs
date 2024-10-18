@@ -1,3 +1,8 @@
+## 3.0.0
+
+- Updated ESLint to version 9.
+- Updated engine requirements to node 20 and npm 10.
+
 ## 2.1.0
 
 - Replace dependency eslint-plugin-node with eslint-plugin-n 14.0.0.

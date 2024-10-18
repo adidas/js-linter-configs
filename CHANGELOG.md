@@ -3,6 +3,13 @@ This changelog is only to log changes of the project base.
 If there are changes on the packages, please, check and update the changelog of each package accordingly.
 -->
 
+# 4.0.0
+
+- Updated engine requirements to node 20 and npm 10.
+- Updated ecmaVersion to 2024 or es15.
+- Updated `eslint` to 9.
+- Updated `eslint-plugin-node` to 17.
+
 ## 3.1.0
 
 - Replace dependency eslint-plugin-node with eslint-plugin-n 14.0.0.
