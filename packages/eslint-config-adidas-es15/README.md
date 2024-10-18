@@ -1,12 +1,12 @@
-[![npm version](https://badge.fury.io/js/eslint-config-adidas-es13.svg)](https://npmjs.com/package/eslint-config-adidas-es13)
+[![npm version](https://badge.fury.io/js/eslint-config-adidas-es15.svg)](https://npmjs.com/package/eslint-config-adidas-es15)
 
-# eslint-config-adidas-es13
+# eslint-config-adidas-es15
 
-ES13 (ES2022) ESLint rules.
+ES15 (ES2024) ESLint rules.
 
-These already extend `eslint-config-adidas-es9`.
+These already extend `eslint-config-adidas-es13`.
 
-This set of rules is not too restrictive since ES13 features are yet in evaluation.
+This set of rules is not too restrictive since ES15 features are yet in evaluation.
 
 ## Install
 
