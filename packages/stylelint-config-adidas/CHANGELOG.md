@@ -1,3 +1,7 @@
+## 3.0.1
+
+- Removed rules deprecated by Stylelint 16.
+
 ## 3.0.0
 
 - Updated ESLint to version 9.
