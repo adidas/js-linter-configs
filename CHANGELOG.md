@@ -3,6 +3,10 @@ This changelog is only to log changes of the project base.
 If there are changes on the packages, please, check and update the changelog of each package accordingly.
 -->
 
+## 4.0.1
+
+- Removed rules deprecated by Stylelint 16.
+
 # 4.0.0
 
 - Updated engine requirements to node 20 and npm 10.
