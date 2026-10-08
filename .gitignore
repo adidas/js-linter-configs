@@ -6,5 +6,6 @@
 *.code-*
 *.log
 *.orig
+*.tgz
 node_modules
 packages/**/LICENSE

@@ -1,7 +1,7 @@
 {
-  "name": "stylelint-config-adidas",
-  "version": "3.0.2",
-  "description": "Stylelint base configuration and rules for CSS",
+  "name": "stylelint-config-adidas-less",
+  "version": "1.0.0",
+  "description": "Stylelint configuration to check LESS specific rules",
   "license": "MIT",
   "contributors": [
     "David Recuenco <david.recuencogadea@gmail.com>",
@@ -17,10 +17,8 @@
   },
   "main": "./index.js",
   "peerDependencies": {
-    "stylelint": "^16.26.1"
-  },
-  "dependencies": {
-    "stylelint-config-standard": "^36.0"
+    "stylelint-config-adidas": "^3.0",
+    "stylelint-less": "^3.0.1"
   },
   "files": [
     "index.js",

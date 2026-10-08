@@ -1,3 +1,7 @@
+## 3.0.2
+
+- Disabled Stylelint rules that produce false positives after upgrading to Stylelint 16.
+
 ## 3.0.1
 
 - Removed rules deprecated by Stylelint 16.
