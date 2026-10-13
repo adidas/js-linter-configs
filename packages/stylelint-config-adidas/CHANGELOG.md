@@ -1,6 +1,12 @@
 ## 3.0.2
 
-- Disabled Stylelint rules that produce false positives after upgrading to Stylelint 16.
+- Disabled `function-no-unknown`, `media-query-no-invalid`, and `no-unknown-custom-media` to avoid false positives.
+- Set `alpha-value-notation` to `number`.
+- Set `color-function-notation` to `legacy`.
+- Set `import-notation` to `string`.
+- Set `lightness-notation` to `percentage`.
+- Set `selector-not-notation` to `simple`.
+- Updated the `stylelint` peer dependency to `^16.26.1`.
 
 ## 3.0.1
 

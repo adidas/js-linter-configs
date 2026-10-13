@@ -17,8 +17,12 @@
   },
   "main": "./index.js",
   "peerDependencies": {
-    "stylelint-config-adidas": "^3.0",
+    "stylelint-config-adidas": "^3.0.2",
     "stylelint-less": "^3.0.1"
+  },
+  "dependencies": {
+    "stylelint-config-adidas": "^3.0.2",
+    "stylelint-config-recommended-less": "3.0.1"
   },
   "files": [
     "index.js",
