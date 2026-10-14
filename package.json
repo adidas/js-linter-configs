@@ -1,11 +1,12 @@
 {
   "name": "js-linter-configs",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "adidas configurations for JavaScript linting tools",
   "license": "MIT",
   "contributors": [
     "David Recuenco <david.recuencogadea@gmail.com>",
-    "Jaime Pastor <moelders@gmail.com>"
+    "Jaime Pastor <moelders@gmail.com>",
+    "Ines Sanchez <astody2@gmail.com>"
   ],
   "repository": {
     "type": "git",

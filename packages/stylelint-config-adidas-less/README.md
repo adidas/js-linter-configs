@@ -1,5 +1,4 @@
-<!-- THIS PAGE DOES NOT EXIST -->
-[![npm version](https://badge.fury.io/js/stylelint-config-adidas-scss.svg)](https://npmjs.com/package/stylelint-config-adidas-less)
+[![npm version](https://badge.fury.io/js/stylelint-config-adidas-less.svg)](https://npmjs.com/package/stylelint-config-adidas-less)
 
 # stylelint-config-adidas-less
 
