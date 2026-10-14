@@ -1,12 +1,13 @@
-## 3.0.2
+# 3.1.0
 
-- Disabled `function-no-unknown`, `media-query-no-invalid`, and `no-unknown-custom-media` to avoid false positives.
-- Set `alpha-value-notation` to `number`.
-- Set `color-function-notation` to `legacy`.
-- Set `import-notation` to `string`.
-- Set `lightness-notation` to `percentage`.
-- Set `selector-not-notation` to `simple`.
-- Updated the `stylelint` peer dependency to `^16.26.1`.
+- Updated `stylelint` peer-dependency to v16.
+- Updated rules:
+  - Set `alpha-value-notation` to `number`.
+  - Set `color-function-notation` to `legacy`.
+  - Set `import-notation` to `string`.
+  - Set `lightness-notation` to `percentage`.
+  - Set `selector-not-notation` to `simple`.
+  - Set `function-no-unknown`, `media-query-no-invalid`, and `no-unknown-custom-media` as disabled to avoid false positives.
 
 ## 3.0.1
 

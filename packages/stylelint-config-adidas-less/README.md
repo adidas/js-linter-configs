@@ -1,11 +1,11 @@
-<!-- ESTA PÁGINA NO EXISTE -->
+<!-- THIS PAGE DOES NOT EXIST -->
 [![npm version](https://badge.fury.io/js/stylelint-config-adidas-scss.svg)](https://npmjs.com/package/stylelint-config-adidas-less)
 
 # stylelint-config-adidas-less
 
 adidas configuration for [_stylelint_](https://www.npmjs.com/package/stylelint) CSS linter tool.
 
-It uses the LESS plugin with some custom rules: [_stylelint-less](https://www.npmjs.com/package/stylelint-less). <!-- ESTA PÁGINA NO EXISTE -->
+It uses the LESS plugin with some custom rules: [_stylelint-less](https://www.npmjs.com/package/stylelint-less).
 
 ## Install
 
