@@ -1,0 +1,39 @@
+{
+  "name": "stylelint-config-adidas-less",
+  "version": "1.0.0",
+  "description": "Stylelint configuration to check LESS specific rules",
+  "license": "MIT",
+  "contributors": [
+    "David Recuenco <david.recuencogadea@gmail.com>",
+    "Jaime Pastor <moelders@gmail.com>",
+    "Ines Sanchez <astody2@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adidas/js-linter-configs.git"
+  },
+  "engines": {
+    "node": ">= 20",
+    "npm": ">= 10"
+  },
+  "main": "./index.js",
+  "peerDependencies": {
+    "stylelint-config-adidas": "^3.1.0",
+    "stylelint-less": "^3.0.1"
+  },
+  "dependencies": {
+    "stylelint-config-adidas": "3.1.0",
+    "stylelint-config-recommended-less": "3.0.1"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "less",
+    "stylelint",
+    "stylelint-config"
+  ]
+}

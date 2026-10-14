@@ -1,11 +1,12 @@
 {
   "name": "stylelint-config-adidas",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "Stylelint base configuration and rules for CSS",
   "license": "MIT",
   "contributors": [
     "David Recuenco <david.recuencogadea@gmail.com>",
-    "Jaime Pastor <moelders@gmail.com>"
+    "Jaime Pastor <moelders@gmail.com>",
+    "Ines Sanchez <astody2@gmail.com>"
   ],
   "repository": {
     "type": "git",
@@ -17,7 +18,7 @@
   },
   "main": "./index.js",
   "peerDependencies": {
-    "stylelint": "^16.10"
+    "stylelint": "^16.26.1"
   },
   "dependencies": {
     "stylelint-config-standard": "^36.0"

@@ -3,6 +3,11 @@ This changelog is only to log changes of the project base.
 If there are changes on the packages, please, check and update the changelog of each package accordingly.
 -->
 
+# 4.1.0
+
+- Added `stylelint-config-adidas-less` package.
+- Updated `stylelint-config-adidas` rules.
+
 ## 4.0.1
 
 - Removed rules deprecated by Stylelint 16.
